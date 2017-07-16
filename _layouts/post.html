@@ -1,0 +1,70 @@
+---
+layout: default
+---
+
+<div class="container container-post">
+
+      <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+        <div class="post-header">
+          <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+          <p class="post-meta">
+            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+              {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+              {{ page.date | date: date_format }}
+            </time>
+            {% if page.author %}
+              • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+            {% endif %}</p>
+
+
+            {% include share-buttons.html %}
+        </div>
+
+        <div class="row">
+             <div class="col-lg-8">
+                <div class="post-content" itemprop="articleBody">
+                  {{ content }}
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="well subscribe-right-box">
+                  <h4 class="">Rejoignez +1500 lecteurs ️️!</h4>
+                    <p>N'hésitez pas à vous inscrire à la newsletter Gladys ! Pas de spam, juste des news que j'envoie personnellement 🙂</p>
+                    <form action="//gladysproject.us10.list-manage.com/subscribe/post?u=2987d27cbb489c6da217450c2&amp;id=e20efa438f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+                    <div class="input-group email-input-group">
+                    <input type="email" value="" name="EMAIL" id="followGladysInput-2" class="form-control" placeholder="Email">
+                    <input type="hidden" id="messageSubscribe" value="Merci de vous être inscrit ! Vous allez recevoir un mail de confirmation, vous devez cliquez sur le lien de confirmation pour rejoindre la liste :)">
+                    
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_2987d27cbb489c6da217450c2_e20efa438f" tabindex="-1" value=""></div>
+                    <span class="input-group-btn">
+                    <input class="btn btn-success" type="submit" value="S'inscrire">
+                    </span>
+                    </div> 
+                    </form>
+              </div>
+
+                <!-- Blog Categories Well -->
+        <div class="well">
+            <h4>Articles</h4>
+
+            <ul class="list-unstyled">
+                
+                    <li><a href="">Titre</a></li>
+        
+            </ul>
+            <!-- /.row -->
+        </div>
+            </div>
+        </div>
+
+        {% include comments.html %}
+
+        {% if site.disqus.shortname %}
+          {% include disqus_comments.html %}
+        {% endif %}
+      </article>
+
+   
+    </div>
+

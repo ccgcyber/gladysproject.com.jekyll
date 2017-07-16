@@ -1,0 +1,170 @@
+---
+title: My page
+layout: default
+language: fr
+---
+
+<div class="homepage">
+<header>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7">
+                    <div class="header-content">
+                        <div class="header-content-inner">
+                            <h1>Gladys, your home assistant</h1>
+                            <h4>Gladys is an open-source program which runs on your Raspberry Pi. <br />
+It communicates with all your devices and checks your calendar to help you in your everyday life.</h4>
+                            <a href="#download" class="btn btn-outline btn-xl page-scroll">Start Now for Free!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <div class="device-container">
+                        <div class="device-mockup iphone6_plus portrait white">
+                            <div class="device">
+                                <div class="screen">
+                                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                    <img src="/assets/img/iphone-telegram-crop-2x.png" class="img-responsive" alt="">
+                                </div>
+                                <div class="button">
+                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--<section id="download" class="download bg-primary text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h2 class="section-heading">Discover what all the buzz is about!</h2>
+                    <p>Our app is available on any mobile device! Download now to get started!</p>
+                    <div class="badges">
+                        <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
+                        <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+
+    <section class="section-email-input" >
+        <div class="container">
+            <div class="col-md-8">
+                <h3>Join the community, and receive news about the project !</h3>
+            </div>
+                
+            <div class="col-md-4" >
+               
+               <div class="input-group input-group-lg email-input-group">
+                  <input type="text" id="followGladysInput" class="form-control" placeholder="Email">
+                  <input type="hidden" id="messageSubscribe" value="subscribe"/>
+                  <span class="input-group-btn">
+                    <button class="btn btn-primary" id="button-subscribe-email" type="button">Join</button>
+                  </span>
+                </div><!-- /input-group -->
+               
+            </div>
+        </div>
+    </section>
+
+    <div id="features" style="margin-top: 30px;">
+    <div class="container">
+        <h2 class="text-center">Des possibilités illimitées</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <img class="centered img-responsive" src="/assets/images/mockups/macbookmockupEN-2x.png" alt="">
+            </div>
+            <div class="col-md-6">
+
+                <div class="accordion ac" id="accordion2">
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <h3 class="accordion-toggle">Réveillez-vous en douceur</h3>
+                        </div>
+                        <div id="collapseTwo" class="accordion-body collapse in">
+                            <div class="accordion-inner">
+                                <p>Il est 8h, Gladys me réveille car elle sait qu'à 9H je dois aller travailler, et que je mets,
+                                    selon mes préférences, 30 minutes pour me préparer, et que selon l'état actuel du trafic,
+                                    je vais mettre 30 minutes en voiture pour aller au bureau. Elle a vu grâce à une API
+                                    de météo qu'il pleut dehors, et en profite pour me le signaler au réveil.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <h3 class="accordion-toggle">Analyse des mouvements</h3>
+                        </div>
+                        <div id="collapseOne" class="accordion-body collapse in">
+                            <div class="accordion-inner">
+                                <p>Il est 8h10, dès que je sors de mon lit, Gladys détecte un mouvement dans la pièce et coupe
+                                    le réveil, allume la lumière de la pièce, lance une playlist calme et ouvre les volets.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <h3 class="accordion-toggle">Des scénarios intelligents</h3>
+                        </div>
+                        <div id="collapseOne" class="accordion-body collapse in">
+                            <div class="accordion-inner">
+                                <p>Il est 8h45, je sors de chez moi pour aller travailler, Gladys détecte que je ne suis plus
+                                    là, elle coupe lumière et la musique. Cependant, après le boulot, je sors chez des amis,
+                                    et reste dormir chez eux. Gladys sait que je ne suis pas rentré (pas de mouvement n'a
+                                    été détecté), et désactive donc le réveil du lendemain, car pas besoin de sonner si je
+                                    ne dors pas chez moi, et que mon appartement est vide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <h3 class="accordion-toggle">Toujours là pour vous</h3>
+                        </div>
+                        <div id="collapseOne" class="accordion-body collapse in">
+                            <div class="accordion-inner">
+                                <p>Il est 19h, je rentres du bureau, Gladys allume la lumière, me souhaite la bienvenue, et
+                                    me notifie les messages que j'ai reçu en mon absence.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <section id="features" class="features-section">
+        <div class="container">
+           <div class="row">
+                <div class="col-md-4">
+                    <div class="feature-item text-center">
+                        <i class="icon-screen-smartphone text-primary"></i>
+                        <h3>Open-Source</h3>
+                        <p class="text-muted">Gladys is 100% available on GitHub, pull-requests are welcomed!</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-item text-center">
+                        <i class="icon-camera text-primary"></i>
+                        <h3>Powerful</h3>
+                        <p class="text-muted">Powered by Node.js, Gladys is blazzing fast 🚀</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-item text-center">
+                        <i class="icon-camera text-primary"></i>
+                        <h3>Privacy</h3>
+                        <p class="text-muted">Gladys is hosted on your Raspberry Pi, nothing leave your house.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>

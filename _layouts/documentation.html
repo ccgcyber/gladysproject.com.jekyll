@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="container container-margin">
+    <div class="row">
+
+        <div class="col-md-4">
+
+            {% assign installationPage = '/' | append:page.language | append:'/installation/' %}
+            {% assign configureHousePage = '/' | append:page.language | append:'/installation/configure-house.html' %}
+            {% assign configureDevicesPage = '/' | append:page.language | append:'/installation/configure-devices.html' %}
+            {% assign developModulePage = '/' | append:page.language | append:'/installation/develop-module.html' %}
+            {% assign developScriptPage = '/' | append:page.language | append:'/installation/develop-script.html' %}
+            {% assign restApiPage = '/' | append:page.language | append:'/installation/rest-api.html' %}
+            {% assign nodejsApiPage = '/' | append:page.language | append:'/installation/nodejs-api.html' %}
+
+            <div class="list-group">
+            <a href="/{{ page.language }}/installation" class="list-group-item {% if page.url == installationPage  %} active {% endif %}">{{site.data.i18n[page.language].documentation.installation}}</a>
+            <a href="/{{ page.language }}/installation/configure-house" class="list-group-item {% if page.url == configureHousePage  %} active {% endif %}">{{site.data.i18n[page.language].documentation.configureHouse}}</a>
+            <a href="/{{ page.language }}/installation/configure-devices" class="list-group-item {% if page.url == configureDevicesPage  %} active {% endif %}">{{site.data.i18n[page.language].documentation.configureDevices}}</a>
+            <a href="/{{ page.language }}/installation/develop-module" class="list-group-item {% if page.url == developModulePage  %} active {% endif %}">{{site.data.i18n[page.language].documentation.developModule}}</a>
+            <a href="/{{ page.language }}/installation/develop-script" class="list-group-item {% if page.url == developScriptPage  %} active {% endif %}">{{site.data.i18n[page.language].documentation.developScript}}</a>
+            <a href="/{{ page.language }}/installation/rest-api" class="list-group-item {% if page.url == restApiPage  %} active {% endif %}">{{site.data.i18n[page.language].documentation.httpApi}}</a>
+            <a href="/{{ page.language }}/installation/nodejs-api" class="list-group-item {% if page.url == nodejsApiPage  %} active {% endif %}">{{site.data.i18n[page.language].documentation.nodejsApi}}</a>
+            </div>
+        </div>
+
+        <div class="col-md-8">
+            {{ content }}
+        </div>
+    </div>
+</div>
