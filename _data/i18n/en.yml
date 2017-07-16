@@ -1,0 +1,178 @@
+lang:
+  french: Français
+  english: English
+
+
+global:
+  menu:
+    home: Home
+    installation: Getting Started
+    project: The project
+    compatibilities: Compatibilities
+    developer: Developer
+    blog: Blog
+    store: Store
+    forum: Forum
+    github: GitHub
+    press: Press
+    contact: Contact
+    articleOnlyAvailable: Article only available in this language !
+
+  # Products
+  products:
+    title: Hardware
+    description: You will find here all the hardware I use with Gladys !
+    get: Get it
+    tutorial: Tutorial
+
+  footer:
+      contact: Contact
+      backTop: Scroll to top
+
+  # The HomePage
+  mainPage:
+    title: Gladys | Your Home Assistant
+    description: Download Gladys, your personal home assistant, always here for you.
+
+    bigTitle: Gladys, your home assistant
+    smallSentence: Gladys is an open-source program which runs on your Raspberry Pi.
+    smallSentenceLine: It communicates with all your devices and checks your calendar to help you in your everyday life.
+    installButton: Install Gladys for free !
+    sentenceEmail: Join the community, and receive news about the project !
+    buttonEmail: Subscribe
+    messageSubscribe: Thanks for subscribing ! You should receive a confirmation mail within a few minutes, please click on the link to confirm your subscription :)
+    leftArrow:
+      title: Personnel
+      description: Gladys se connecte
+
+    rightArrow:
+      title: Intelligent
+      description:
+
+    specTitle: Revolutionary
+    powerful:
+      title: Powerful
+      description: Fully written in Node.js, Gladys is blazing fast.
+    connected:
+      title: Connected
+      description: Gladys connects to the internet to know more about you.
+    open:
+      title: Open-Source
+      description: Gladys is fully available on GitHub. Don't hesitate to contribute !
+
+    news:
+      title: What's New ?
+
+      features:
+        title: Some Amazing Features
+        controlHouse:
+          title: Sensors
+          text: "It's 8.10 AM, Gladys detects thanks to a motion sensor that you are getting out of bed. She immediately starts the wake-up scenario : she tells the coffee machine to prepare the coffee, and opens the blinds."
+        wakeUp:
+          title: Wake Up
+          text:  It's 8 AM. Gladys wakes you up automatically because she knows that you need to be at work at 9 AM, and that according to the traffic, you'll need 30min to go to work with your car. She knows that you like 30 min to get ready. She wakes you up with a soft progressive warm light thanks to your Philips Hue, and puts a nice music in your room.
+        scenario:
+          title: Smart Scenarios
+          text: At 8.30 AM, you leave the house. Gladys detects thanks to your smartphone that you are not at home anymore, and shuts down everything inside.
+        sleep:
+          title: Waiting for you
+          text: "At 6.30 PM, you are getting back home : Everything is ready when you arrive. You are going to sleep, so you simply put your phone on your nightstand where a NFC tag is sticked. It immediately sends a request to Gladys to tell here you are going to sleep. She starts the \"Going to sleep\" scenario, and turns off all lights."
+
+    aFewVideos: Quick overview
+
+    installGladys:
+      button: Install Gladys
+      text: You love the project ? Try and share Gladys !
+
+
+  #Installation Page
+  installation:
+    title: Installation
+    description: Your home automation assistant
+    followGladys: Follow Gladys !
+    followGladysPlaceholder: Email
+
+  #Blog Page
+  blog:
+    meta:
+      title: Blog | Gladys Project
+      description: The blog about the Gladys project. Find here all news, tutorials about Gladys.
+    title: Blog
+    noArticles: No articles available in this language !
+    readmore: Read more
+
+
+
+  #Article Page
+  article:
+    home: Home
+    blog: Blog
+    lastArticles: Last articles
+    newsletter: "Don't hesitate to follow Gladys to receive updates :"
+    dontmissarticle: Keep me up to date !
+    comments: Comments
+    leaveComment: Leave a comment
+    placeholderPseudo: Your name
+    placeholderMail: Your Email
+    placeholderComment: Write here your comment
+    robotQuestion: What's the last letter of the word "Gladys" ?
+    post: Post
+
+
+  #Project Page
+  project:
+    title: The Projet
+
+  compatibilities:
+    title: Compatibilities
+
+  #Press Page
+  press:
+    title: Press
+
+
+  #Contact page
+  contact:
+    title: Contact | Gladys Project
+    description: Contact me if you have questions about the project. It will be a pleasure to answer !
+    sentence: If you have questions about the project, if you want to help... Don't hesitate to contact me !
+    name: Name
+    namePlaceholder: Enter your name
+    email: Email
+    emailPlaceholder: Enter your email
+    message: Your message
+    messagePlaceholder: Enter your message
+    send: Send
+    legalMention:
+      title: Legal Mentions
+      whoAmI: Who Am I ?
+      sentence: I'm Pierre-Gilles Leymarie, I'm 22 years old. I'm Software Engineer at BulldozAIR and student in a french engineering school ( UTC ). Don't hesitate to contact me if you have any questions on the project :)
+      helpTheProject: Help the project !
+      hebergement: This website is hosted by
+
+
+
+
+  api:
+    comments:
+      invalidMail: Your email address is not a valid address !
+      otherError: There were some errors while posting your comments.
+      youAreARobot: You seems to be a robot !
+      success: Your comments has been posted with success ! I'll answer a soon as possible.
+
+    contact:
+      empty: Some fields are empty.
+      invalidMail: Your email address is not a valid address !
+      success: Your message is on the road. I'll answer your message as soon as possible.
+
+  errors:
+    goToHomePage: "Go back to homepage :"
+    homepage: Homepage
+    404:
+      title: 404 Error
+      message: The page you are trying to reach does not exist.
+    500:
+      title: 500 Error
+      message: Looks like something went wrong!
+
+

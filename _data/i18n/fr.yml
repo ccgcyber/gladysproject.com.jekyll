@@ -1,0 +1,194 @@
+documentation:
+  installation: Installation
+  configureHouse: Configuration du logement
+  configureDevices: Configuration des périphériques
+  developModule: Développer un module
+  developScript: Développer un script
+  httpApi: L'API REST
+  nodejsApi: L'API Node.js
+
+lang:
+  french: Français
+  english: English
+
+global:
+  menu:
+    home: Accueil
+    installation: Installation
+    project: Le projet
+    compatibilities: Compatibilités
+    developer: Développeur
+    blog: Blog
+    store: Store
+    forum: Forum
+    github: GitHub
+    press: Presse
+    contact: Contact
+    articleOnlyAvailable: Article disponible uniquement dans cette langue !
+
+  footer:
+    contact: Contact
+    backTop: Remonter en haut
+
+  # Products
+  products:
+    title: Matériel recommandé Gladys
+    description: Retrouvez sur cette page tout le matériel utilisé dans Gladys !
+    get: Acheter
+    tutorial: Tutoriel
+
+  # The HomePage
+  mainPage:
+    title: Gladys | Votre assistant domotique intelligent
+    description: Téléchargez Gladys, votre assistant domotique intelligent qui vous aide au quotidien !
+
+    bigTitle: Gladys, votre assistant domotique intelligent
+    smallSentence: Gladys est un programme open-source pour Raspberry Pi.
+    smallSentenceLine: Gladys se connecte à vos périphériques et à votre agenda pour mieux vous aider au quotidien.
+    installButton: Installer Gladys gratuitement !
+    sentenceEmail: Rejoignez la communauté, et recevez les news du projet !
+    buttonEmail: S'inscrire
+    messageSubscribe: Merci de vous être inscrit ! Vous allez recevoir un mail de confirmation, vous devez cliquez sur le lien de confirmation pour rejoindre la liste :)
+    leftArrow:
+      title: Personnel
+      description: Gladys se connecte
+
+    rightArrow:
+      title: Intelligent
+      description: te
+
+    specTitle: Innovant
+    powerful:
+      title: Puissant
+      description: Entièrement écrit en Node.js, Gladys est d'une rapidité saisissante.
+    connected:
+      title: Connecté
+      description: Gladys se connecte à un panel d'API pour vous connaître au mieux, et mieux vous aider au quotidien.
+    open:
+      title: Open-Source
+      description: Gladys est entièrement sur GitHub ! Les pull-requests sont les bienvenues :)
+
+    news:
+      title: Un assistant domotique
+
+      features:
+        title: Des possibilités illimitées
+        controlHouse:
+          title: Analyse des mouvements
+          text:  Il est 8h10, dès que je sors de mon lit, Gladys détecte un mouvement dans la pièce et coupe le réveil, allume la lumière de la pièce, lance une playlist calme et ouvre les volets.
+        wakeUp:
+          title: Réveillez-vous en douceur
+          text: Il est 8h, Gladys me réveille car elle sait qu'à 9H je dois aller travailler, et que je mets, selon mes préférences, 30 minutes pour me préparer, et que selon l'état actuel du trafic, je vais mettre 30 minutes en voiture pour aller au bureau. Elle a vu grâce à une API de météo qu'il pleut dehors, et en profite pour me le signaler au réveil.
+        scenario:
+          title: Des scénarios intelligents
+          text: Il est 8h45, je sors de chez moi pour aller travailler, Gladys détecte que je ne suis plus là, elle coupe lumière et la musique. Cependant, après le boulot, je sors chez des amis, et reste dormir chez eux. Gladys sait que je ne suis pas rentré (pas de mouvement n'a été détecté), et désactive donc le réveil du lendemain, car pas besoin de sonner si je ne dors pas chez moi, et que mon appartement est vide.
+        sleep:
+          title: Toujours là pour vous
+          text: Il est 19h, je rentres du bureau, Gladys allume la lumière, me souhaite la bienvenue, et me notifie les messages que j'ai reçu en mon absence.
+    
+    aFewVideos: Quelques vidéos
+
+    installGladys:
+      button: Installer Gladys
+      text: Le projet vous plait ? Testez et partagez Gladys !
+
+
+  #Installation Page
+  installation:
+    title: Installation
+    description: Votre assistant domotique intelligent
+    followGladys: Suivre Gladys !
+    followGladysPlaceholder: Email
+
+  #Blog Page
+  blog:
+    meta:
+      title: Blog | Gladys Project
+      description: Le blog du projet Gladys. Retrouvez ici des news, tutoriels à propos du projet.
+    title: Blog
+    noArticles: Aucuns articles disponibles en français !
+    readmore: Lire la suite
+
+  rss:
+    title: Le blog du projet Gladys !
+    description: Retrouve toutes les actualités autour du projet, les tutoriels, les tests !
+    feedUri: http://gladysproject.com/fr_feed.xml
+    websiteUri: http://gladysproject.com
+
+
+
+  #Article Page
+  article:
+    home: Accueil
+    blog: Blog
+    lastArticles: Derniers Articles
+    newsletter: Si vous voulez recevoir les derniers articles autour du projet, n'hésitez pas à suivre Gladys :)
+    dontmissarticle: Ne rien manquer de Gladys !
+    comments: Commentaires
+    leaveComment: Laisser un commentaire
+    placeholderPseudo: Votre nom/pseudo
+    placeholderMail: Votre email
+    placeholderComment: Tapez ici votre commentaire
+    robotQuestion: Quelle est la dernière lettre du mot Gladys ?
+    post: Poster
+
+
+  #Project Page
+  project:
+    title: Le Projet
+
+  compatibilities:
+    title: Compatibilités
+
+
+  #Press Page
+  press:
+    title: Presse
+
+
+  #Contact page
+  contact:
+    title: Contact | Gladys Project
+    description: Contactez moi si vous avez des questions sur le projet, je vous répondrais avec plaisir.
+    sentence: Si vous avez des questions/remarques, que vous voulez en savoir plus sur le projet, que vous voulez aider, proposer des idées, des solutions... Ce formulaire est fait pour vous !
+    name: Nom
+    namePlaceholder: Entrez votre nom
+    email: Email
+    emailPlaceholder: Entrez votre email
+    message: Votre message
+    messagePlaceholder: Entrez votre message
+    send: Envoyer
+    legalMention:
+      title: Mentions légales
+      whoAmI: Qui suis-je ?
+      sentence: Je m'appelle Pierre-Gilles Leymarie, j'ai 22 ans. Je suis ingénieur back-end dans la startup BulldozAIR et je suis étudiant à l'UTC ! N'hésitez pas à me contacter si vous voulez plus d'informations sur le projet :)
+      helpTheProject: Aidez le projet !
+      hebergement: Ce site est hébergé chez
+
+
+
+
+  api:
+    comments:
+      invalidMail: L'email que vous avez saisi n'est pas valide !
+      otherError: Une erreur est survenue lors du post de votre commentaire.
+      youAreARobot: Nous n'avons pas pu vous vérifier en tant qu'humain, vous êtes peut être un robot...
+      success: Votre commentaire a été posté avec succès ! Je le validerais dès que possible :)
+
+    contact:
+      empty: Vous n'avez pas rempli certains champs.
+      invalidMail: L'email que vous avez saisi n'est pas valide !
+      success: Votre message a été envoyé avec succès ! J'y répondrais dès que possible.
+
+
+  errors:
+    goToHomePage: Retourner à la page d'accueil 
+    homepage: Page d'accueil
+    404:
+      title: Erreur 404
+      message: La page que vous recherchez n'existe pas.
+    500:
+      title: Erreur 500
+      message: Un erreur est intervenue lors du traitement de votre requête.
+
+
