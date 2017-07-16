@@ -1,0 +1,19 @@
+
+/**
+ * Site footer
+ */
+.site-footer .row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.footer-heading {
+  font-size: 18px;
+  margin-bottom: 15px; 
+}
+
+.contact-list,
+.social-media-list {
+  list-style: none;
+  margin-left: 0; }
+
