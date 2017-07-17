@@ -1,7 +1,7 @@
 ---
 title: My page
 layout: documentation
-language: fr
+lang: fr
 ---
 
 ## Les fonctions disponibles dans Gladys

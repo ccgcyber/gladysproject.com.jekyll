@@ -3,7 +3,7 @@ layout: post
 title: Contrôler des ampoules connectées
 description: Contrôlez les lumières de votre logement en WIFI, et créez des ambiances avec un éclairage LED multicolore !
 author: Pierre-Gilles Leymarie
-language: fr
+lang: fr
 locale: fr_FR
 img: milightlow.jpg
 altImg: Contrôler des ampoules connectées

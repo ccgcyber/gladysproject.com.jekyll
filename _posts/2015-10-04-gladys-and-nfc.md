@@ -3,7 +3,7 @@ layout: post
 title: Des tags NFC pour contrôler Gladys
 description: Comment déclencher des actions sur Gladys sans forcément être sur l'interface ? Avec Tasker et des tags NFC !
 author: Pierre-Gilles Leymarie
-language: fr
+lang: fr
 locale: fr_FR
 img: nfc-cover.jpg
 altImg: Des tags NFC pour contrôler Gladys

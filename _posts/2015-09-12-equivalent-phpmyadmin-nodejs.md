@@ -3,7 +3,7 @@ layout: post
 title: Un équivalent à PhpMyAdmin en Node.js
 description: On utilise souvent PhpMyAdmin pour administrer sa base de donnée MySQL, voici Express-admin, son équivalent Node.js !
 author: Pierre-Gilles Leymarie
-language: fr
+lang: fr
 locale: fr_FR
 img: express-admin-icone.jpg
 altImg: Express-Admin, le PhpMyAdmin de Node.js !

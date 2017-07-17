@@ -3,7 +3,7 @@ layout: post
 title: Des mises à jour Gladys plus rapides et plus stables ! 
 description: Le process de mise à jour Gladys évolue pour être plus rapide et surtout beaucoup plus stable !
 author: Pierre-Gilles Leymarie
-language: fr
+lang: fr
 locale: fr_FR
 img: nouveau-process-maj-cover.jpg
 altImg: Des mises à jour Gladys plus rapides et plus stables ! 

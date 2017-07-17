@@ -3,7 +3,7 @@ layout: post
 title: Gérez votre musique dans Gladys avec des enceintes Sonos !
 description: Gladys dans sa version 3.3 est désormais capable de gérer la musique ! Découvrez comment lire votre musique et vos playlists sur une enceinte Sonos. 
 author: Pierre-Gilles Leymarie
-language: fr
+lang: fr
 locale: fr_FR
 img: gladys-sonos-cover.jpg
 altImg: Gérer la musique dans Gladys avec des enceintes Sonos

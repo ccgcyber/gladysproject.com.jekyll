@@ -1,7 +1,7 @@
 ---
 title: Scenario | Gladys Project
 layout: documentation
-language: fr
+lang: fr
 ---
 
 ## Les scénarios dans Gladys

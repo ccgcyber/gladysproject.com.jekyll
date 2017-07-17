@@ -32,7 +32,19 @@ twitter_username: gladysproject
 github_username:  gladysproject
 facebook_username: gladysproject
 instagram_username: gladysproject
-plugins: [jekyll-feed, jekyll-paginate-v2]
+plugins: [jekyll-feed, jekyll-paginate-v2, jekyll-seo-tag]
+
+#SEO plugins infos
+twitter:
+  username: gladysproject
+logo: /assets/
+social:
+  name: Gladys Project
+  links:
+    - https://twitter.com/gladysproject
+    - https://www.facebook.com/gladysproject
+    - https://www.instagram.com/gladysproject
+    - https://github.com/gladysproject
 
 # Build settings
 markdown: kramdown

@@ -3,7 +3,7 @@ layout: post
 title: Bilan de l'année 2015 et projets pour 2016 !
 description: L'année 2015 a été une formidable année pour le projet. Quelques statistiques sur Gladys, et mes projets pour 2016 !
 author: Pierre-Gilles Leymarie
-language: fr
+lang: fr
 locale: fr_FR
 img: bilan-2015-cover.jpg
 altImg: Bilan de l'année 2015

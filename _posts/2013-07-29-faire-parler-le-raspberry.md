@@ -5,7 +5,7 @@ title: Faire parler le Raspberry Pi
 description: Nous voila enfin dans le vif du sujet, donnons la voix à notre Rasp !
 img: robotspeakinglow.jpg
 author: Pierre-Gilles Leymarie
-language: fr
+lang: fr
 locale: fr_FR
 categories:
 - blog

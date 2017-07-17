@@ -3,7 +3,7 @@ layout: post
 title: Gladys revient entièrement réécrite !
 description: Un an après la première version, Gladys revient dans une toute nouvelle version en full Node.js !
 author: Pierre-Gilles Leymarie
-language: fr
+lang: fr
 locale: fr_FR
 img: gladyscomeback.jpg
 altImg: Gladys revient entièrement réécrite

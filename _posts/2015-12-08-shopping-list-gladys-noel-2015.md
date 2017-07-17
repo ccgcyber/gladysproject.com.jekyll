@@ -3,7 +3,7 @@ layout: post
 title: La shopping list de Gladys pour un Noël connecté !
 description: J'espère que votre lettre au père Noël est pleine de Raspberry Pi et d'Arduinos ! ;) Petit tour d'horizon de ce qui est nécessaire pour commencer avec Gladys
 author: Pierre-Gilles Leymarie
-language: fr
+lang: fr
 locale: fr_FR
 img: noel-2015-cover.jpg
 altImg: Joyeux Noël 2015 !

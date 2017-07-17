@@ -3,7 +3,7 @@ layout: post
 title: Ce qu'il faut attendre de Gladys 3.0 !
 description: Je travaille depuis pas mal de temps sur cette version 3.0 de Gladys, voilà un premier aperçu des features de cette nouvelle version !
 author: Pierre-Gilles Leymarie
-language: fr
+lang: fr
 locale: fr_FR
 img: notebook-cover.jpg
 altImg: Ce qu'il faut attendre de Gladys 3.0 !

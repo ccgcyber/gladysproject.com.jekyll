@@ -3,7 +3,7 @@ layout: post
 title: Bilan du mois de Mai pour le projet Gladys !
 description: "Un premier tutoriel vidéo publié, Gladys 3.6 sortie riche en nouvelles features, une plateforme développeur qui est sur les rails: Un mois de Mai très chargé pour le projet !"
 author: Pierre-Gilles Leymarie
-language: fr
+lang: fr
 locale: fr_FR
 img: gladys-3-6-cover-2.jpg
 altImg: Gladys 3.6

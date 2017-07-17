@@ -3,7 +3,7 @@ layout: post
 title: Une station météo connectée à internet 
 description: Nous allons connecter un capteur de température/humidité à une ethernet shield afin de communiquer à Gladys la température d'une pièce !
 author: Pierre-Gilles Leymarie
-language: fr
+lang: fr
 locale: fr_FR
 img: temperature-ethernet-cover.jpg
 altImg: Ethernet Temperature Sensor

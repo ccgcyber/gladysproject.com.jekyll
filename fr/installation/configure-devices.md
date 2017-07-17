@@ -1,7 +1,7 @@
 ---
 title: Configurer les périphériques
 layout: documentation
-language: fr
+lang: fr
 ---
 
 ## Ajoutez des périphériques

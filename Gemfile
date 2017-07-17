@@ -29,6 +29,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "rake", "~> 11.0"
 gem "domainatrix"
 
+gem 'jekyll-seo-tag'
 
 group :test do
   gem "rubocop"

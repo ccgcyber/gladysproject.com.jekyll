@@ -4,7 +4,7 @@ date: "2014-02-13 00:00:00"
 title: Un détecteur de mouvements sur les ports GPIOs du Raspberry Pi
 description: Afin de diffuser des alertes uniquement quand le propriétaire est là, il est utile de savoir si l’appartement est vide ou occupé ! Nous apprendrons ici à détecter si la pièce est occupé.
 img: motionsensorlow.jpg
-language: fr
+lang: fr
 locale: fr_FR
 categories:
 - blog

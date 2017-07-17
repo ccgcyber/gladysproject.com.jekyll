@@ -3,7 +3,7 @@ layout: post
 title: Lancement de Gladys !
 description: La première version de Gladys est disponible ! Téléchargez-la gratuitement et participez au programme développeur!
 img: Gladysannoucelow.jpg
-language: fr
+lang: fr
 locale: fr_FR
 categories:
 - blog

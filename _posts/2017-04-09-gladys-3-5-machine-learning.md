@@ -3,7 +3,7 @@ layout: post
 title: Comment Gladys 3.5 répond à vos messages  grâce au machine learning
 description: Dans cet article, nous verrons en détail comment fonctionne l'analyse de phrases dans Gladys 3.5, et comment vous pouvez désormais discuter avec Gladys !
 author: Pierre-Gilles Leymarie
-language: fr
+lang: fr
 locale: fr_FR
 img: gladys-3-5-cover.jpg
 altImg: Du machine learning dans Gladys 3.5 !

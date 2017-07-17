@@ -1,5 +1,5 @@
 ---
 layout: compatibilities
 title: Compatibilitées | Gladys Project
-language: fr
+lang: fr
 ---

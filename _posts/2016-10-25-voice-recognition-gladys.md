@@ -3,7 +3,7 @@ layout: post
 title: De la reconnaissance vocale sur Raspberry Pi avec Gladys ? Oui !
 description: Vous avez toujours rêvé de voir la reconnaissance vocale arriver dans Gladys ? C'est maintenant chose faite !
 author: Pierre-Gilles Leymarie
-language: fr
+lang: fr
 locale: fr_FR
 img: gladys-voice-cover.jpg
 altImg: Reconnaissance vocale Raspberry Pi Gladys

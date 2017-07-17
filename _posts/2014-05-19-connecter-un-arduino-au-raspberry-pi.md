@@ -3,7 +3,7 @@ layout: post
 title: Connecter un arduino au Raspberry Pi
 description: Pour des interactions électroniques plus poussées, connectons un arduino à notre Raspberry Pi !
 author: Pierre-Gilles Leymarie
-language: fr
+lang: fr
 locale: fr_FR
 img: arduinounolow.jpg
 altImg: Connecter arduino au Raspberry Pi
