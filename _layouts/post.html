@@ -58,6 +58,14 @@ layout: default
             </div>
         </div>
 
+      {% if page.lang == 'fr' %}
+          <div class="row">
+              <div class="col-md-12">
+                  {% include starter-pack-panel-large.html %}
+              </div>
+          </div>
+      {% endif %}
+
         {% include comments.html %}
 
         {% if site.disqus.shortname %}

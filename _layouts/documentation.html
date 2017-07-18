@@ -24,6 +24,10 @@ layout: default
             <a href="/{{ page.lang }}/installation/rest-api" class="list-group-item {% if page.url == restApiPage  %} active {% endif %}">{{site.data.i18n[page.lang].documentation.httpApi}}</a>
             <a href="/{{ page.lang }}/installation/nodejs-api" class="list-group-item {% if page.url == nodejsApiPage  %} active {% endif %}">{{site.data.i18n[page.lang].documentation.nodejsApi}}</a>
             </div>
+
+            {% if page.lang == 'fr' %}
+                {% include starter-pack-panel.html %}
+            {% endif %}
         </div>
 
         <div class="col-md-8">
