@@ -9,10 +9,8 @@ img: express-admin-icone.jpg
 altImg: Express-Admin, le PhpMyAdmin de Node.js !
 categories:
 - blog
-permalink: 
+permalink: /fr/article/equivalent-phpmyadmin-nodejs
 ---
-
-#Un équivalent à PhpMyAdmin en Node.js
 
 Pour administrer sa base de donnée MySQL, on utilise la plupart du temps phpmyadmin qu'on a souvent sur sa machine ou son serveur. Cependant, avec l'archive préinstallée, ni Apache ni PHP n'est installé ( inutile car Gladys est écrite en 100% Node.js ).
 
@@ -48,25 +46,25 @@ sudo admin config
 
 On remplit avec les informations suivantes : 
 
-![Configuration](/assets/images/articles/equivalent-phphmyadmin-nodejs/configuration.png)
+<img alt="Configuration" src="/assets/images/articles/equivalent-phphmyadmin-nodejs/configuration.png" class="img-responsive" />
  
-###Utiliser express-admin 
+### Utiliser express-admin 
 
 Allez sur votre navigateur à l'adresse `http://IP_DE_VOTRE_RASPBERRY_PI:3000`. Vous devriez trouver quelque chose qui ressemble à ça :
 
-![Login page](/assets/images/articles/equivalent-phphmyadmin-nodejs/login.png)
+<img alt="Login page" src="/assets/images/articles/equivalent-phphmyadmin-nodejs/login.png" class="img-responsive" />
 
 Vous pouvez vous connecter avec les identifiants que vous avez rentré lors de la configuration ( Admin user, Admin password ). 
 
 Vous devriez arriver sur un panel, félicitation vous avez réussi !
 
-![Panel](/assets/images/articles/equivalent-phphmyadmin-nodejs/panel.png)
+<img alt="Panel" src="/assets/images/articles/equivalent-phphmyadmin-nodejs/panel.png" class="img-responsive" />
 
-###Modifier une ligne
+### Modifier une ligne
 
 Petite subtilité, il y a apparemment des petits bugs avec express-admin et les champs `datetime` de MySQL ( voir [l'issue GitHub](https://github.com/simov/express-admin/issues/50) ). Il considère que les dates sont fausses et vous mets une erreur 'malformed' qui vous empêche de mettre à jour un champs. 
 
-![Malformed](/assets/images/articles/equivalent-phphmyadmin-nodejs/malformed.png)
+<img alt="Malformed" src="/assets/images/articles/equivalent-phphmyadmin-nodejs/malformed.png" class="img-responsive" />
 
 Il y a néanmoins une solution ( plutôt un quickfix ), une fois que vous avez lancé au moins une fois express-admin, allez dans le fichier `config/settings.json` et modifiez le type des champs datetime ( seulement des tables que vous voulez modifier ) à :
 
@@ -98,6 +96,6 @@ Ce qui nous donne :
 Cela va juste désactiver la vérification des dates par express-admin, ce qui permet ensuite de faire des update de lignes sans soucis ;) ( même si vous verrez toujours l'erreur )
 
 
-###Conclusion
+### Conclusion
 
 N'hésitez pas si certaines étapes ne sont pas claires ou si vous avez des questions. Si vous n'avez pas encore installé Gladys, c'est plus que jamais le moment de s'y mettre !

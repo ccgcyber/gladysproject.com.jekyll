@@ -7,7 +7,7 @@ lang: fr
 locale: fr_FR
 categories:
 - blog
-permalink: 
+permalink: /fr/article/utiliser-des-detecteurs-sans-fils
 ---
 
 Les détecteurs sans-fils permettent d'utiliser un nombre infini de détecteurs sur votre installation (Détecteurs de mouvements, mais aussi détecteurs d'ouvertures de portes, etc.. )
@@ -39,7 +39,7 @@ apt-get install libcurl4-openssl-dev
 
 Vérifiez que WiringPi et Rcswitch-pi sont bien installés sur votre Raspberry. Si non, installez-les comme dans [le tuto 9#](/news/gerer-les-appareils-electrique) !
 
-### 4) Le code
+### Le code
 
 J'ai utilisé un script de [NinjaBlocks](http://ninjablocks.com/blogs/how-to/7506204-adding-433-to-your-raspberry-pi) que j'ai adapté !
 
@@ -57,6 +57,6 @@ sudo ./RFSniffer
 
 Explication : Ici le programme attend sans fin un signal 433Mhz, dès qu'il en reçoit un il envoit l'ID du capteur avec un requête HTTP, pour informer Gladys !
 
-### 5) Conclusion
+### Conclusion
 
 Maintenant que nous sommes capable de recevoir des signaux 433Mhz sans-fil, notre plateforme Gladys est 100% sans fil ! Et compatible avec les capteurs de mouvements conventionnels.

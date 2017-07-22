@@ -9,7 +9,7 @@ img: gladyscomeback.jpg
 altImg: Gladys revient entièrement réécrite
 categories:
 - blog
-permalink: 
+permalink: /fr/article/gladys-revient-entierement-reecrite
 ---
 
 Un an après la sortie de la première version, Gladys revient dans une nouvelle version **entièrement réécrite** en 100% Node.js.

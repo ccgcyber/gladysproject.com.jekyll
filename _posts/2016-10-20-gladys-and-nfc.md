@@ -9,7 +9,7 @@ img: nfc-cover.jpg
 altImg: Gladys & NFC tags
 categories:
 - blog
-permalink: 
+permalink: /fr/article/gladys-and-nfc
 ---
 
 <div class="alert alert-info" role="alert" style="padding: 10px;">This article works fully with Gladys v3 !</div>
@@ -30,7 +30,7 @@ We'll see in this tutorial how to configure NFC tags to use them with Gladys.
 - Install first Tasker
 - Go to preferences, on the `Misc` tab, then tick `Allow External Access` (So that the Trigger app we'll use next will be able to execute Tasker tasks)
 
-<img alt="Screenshot Android tasker" src="/assets/images/articles/gladys-and-nfc/screenshot-allow-access-en.jpg" width=400" class="img-responsive" />
+<img alt="Screenshot Android tasker" src="/assets/images/articles/gladys-and-nfc/screenshot-allow-access-en.jpg" width="400" class="img-responsive" />
  
 ## Create a task in Tasker
 
@@ -49,7 +49,7 @@ I have a simple scenario I use everyday: I have a NFC tag sticked on my nightsta
 
 <img alt="Screenshot Gladys token" src="/assets/images/articles/gladys-and-nfc/token-gladys-v3.png" class="img-responsive" />
 
-<img alt="Screenshot set token tasker" src="/assets/images/articles/gladys-and-nfc/screenshot-set-token-en.jpg" width=400" class="img-responsive" />
+<img alt="Screenshot set token tasker" src="/assets/images/articles/gladys-and-nfc/screenshot-set-token-en.jpg" width="400" class="img-responsive" />
 
 - Go back on the action list and create a new action by clicking again on the `+` button. Select `Net` then `POST HTTP`. 
 - Fill the `Server:port` field with the IP and the port of your Gladys instance. Example : `YOUR_RASPBERRY_PI_IP` => `192.168.0.12`. If your Gladys is listening on a specific port, put it at the end of the IP like this: `192.168.0.12:8080`. 
@@ -83,7 +83,7 @@ The `user` field is your User ID. You can find this ID in Gladys in `Parameters`
 - Select `Next`, then `Finish`, and finally put your phone on the NFC tag you want to configure.
 - Your NFC tag is now ready to use !
 
-<img alt="Screenshot write NFC" src="/assets/images/articles/gladys-and-nfc/screenshot-write-nfc.jpg" width=400" class="img-responsive" />
+<img alt="Screenshot write NFC" src="/assets/images/articles/gladys-and-nfc/screenshot-write-nfc.jpg" width="400" class="img-responsive" />
 
 ## To conclude
 

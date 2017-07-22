@@ -9,7 +9,7 @@ img: noel-2015-cover.jpg
 altImg: Joyeux Noël 2015 !
 categories:
 - blog
-permalink: 
+permalink: /fr/article/shopping-list-gladys-noel-2015
 ---
 
 Salut à tous ! Noël approche, j'espère que votre liste de cadeaux est pleine d'Arduinos, de Raspberry Pi et de gadgets pour vous et votre Gladys ! 
@@ -21,7 +21,7 @@ Pour commencer avec Gladys, la seule chose qui vous faudra est un Raspberry Pi 2
 
 Pour cela, rien ne vaut un [kit de démarrage Raspberry Pi 2 ( 66€ )](http://amzn.to/1Tz3ZNP) avec tout le nécessaire à l'intérieur ( 1 Raspberry Pi 2 + une carte micro SD classe 10 + une alimentation 2A + un boitier )
 
-![Raspberry Pi Kit complet](/assets/images/articles/noel-2015/raspberry-kit.jpg)
+<img alt="Raspberry Pi Kit complet" src="/assets/images/articles/noel-2015/raspberry-kit.jpg" class="img-responsive" />
 
 Si vous voulez acheter tout séparement, il y a néanmoins quelques points à respecter :
 
@@ -39,7 +39,7 @@ J'avais écris un tutoriel sur le sujet [ici](http://gladysproject.com/fr/articl
 
 Vous trouverez les tags NFC [pour 4€ ici](http://amzn.to/1QQCbmU) !
 
-![Tags NFC](/assets/images/articles/noel-2015/nfc-cover.jpg)
+<img alt="Tags NFC" src="/assets/images/articles/noel-2015/nfc-cover.jpg" class="img-responsive" />
 
 ## Des ampoules connectées
 
@@ -47,7 +47,7 @@ J'avais parlé des ampoules connectées Mi-Light ( [ici](http://gladysproject.co
 
 Vous trouverez les ampoules Mi-Light [pour 35€ ici](http://amzn.to/1gsN0PX), et le pont Wi-Fi [pour 18€ ici](http://amzn.to/1Ogrwzf).
 
-![Milight Lamps](/assets/images/articles/noel-2015/milight_products_light.jpg)
+<img alt="Milight Lamps" src="/assets/images/articles/noel-2015/milight_products_light.jpg" class="img-responsive" />
 
 
 ## Commencer avec un Arduino
@@ -64,7 +64,7 @@ Si vous voulez vous amuser et faire une station météo comme dans [mon dernier 
 
 Après l'arduino peut vous servir à tout et n'importe quoi, il y a un paquets de tutoriels sur internet pour à peu prêt tout !
 
-![Arduino Ethernet shield](/assets/images/articles/noel-2015/temperature-ethernet-cover.jpg)
+<img alt="Arduino Ethernet shield" src="/assets/images/articles/noel-2015/temperature-ethernet-cover.jpg" class="img-responsive" />
 
 ## Des capteurs de mouvements
 

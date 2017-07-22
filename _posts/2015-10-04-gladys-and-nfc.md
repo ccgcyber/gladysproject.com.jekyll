@@ -9,34 +9,34 @@ img: nfc-cover.jpg
 altImg: Des tags NFC pour contrôler Gladys
 categories:
 - blog
-permalink: 
+permalink: /fr/article/gladys-and-nfc
 ---
 
 <div class="alert alert-info" role="alert" style="padding: 10px;">Ce tutoriel a été adapté pour Gladys v3, il fonctionne pleinement avec Gladys !</div>
 
 Comment faire pour intéragir avec Gladys sans avoir avec ouvrir une interface web, lancer une commande ? Avec des tags NFC ! Ce sont les parfaits candidats pour faire la liaison entre le monde physique, et Gladys.
 
-###Le matériel
+### Le matériel
 
 - Des stickers NFC [achetés 4€ ici](http://amzn.to/1QQCbmU).
 - Un smartphone Android NFC ( malheureusement, ce n'est pas encore possible sur iPhone, mais les iPhone 6/6S sont équipés d'une puce NFC, peut être qu'un jour Apple ouvrira l'API !)
 
 **Attention**, lors de ce tutoriel, l'ordre d'installation des applications est important. Si vous avez déjà l'application "Trigger" d'installé sur votre portable, désinstallez-la, il faut installer Tasker d'abord ( A cause d'un bug ).
 
-###Installez tasker
+### Installez tasker
 
 [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=en) est une formidable application Android qui vous permet d'automatiser pas mal d'actions. On s'en servira dans ce tuto pour déclencher des séries d'actions lorsqu'on pose son téléphone sur un tag NFC, mais il fait énormément de choses, et apporte **énormément de possiblités pour Gladys**. Elle coûte certes 2€99, mais bon pour les milliers de fonctionnalités que ça apporte, ça vaut son prix.
 
 - Installez tout d'abord Tasker
 - Allez dans les préférences de Tasker, onglet `Divers`, puis cocher `Autoriser l'accès extérieur` (pour que Trigger puisse déclencher des actions )
 
-<img alt="Screenshot Android tasker" src="/assets/images/articles/gladys-and-nfc/screenshot-allow-access.jpg" width=400" class="img-responsive" />
+<img alt="Screenshot Android tasker" src="/assets/images/articles/gladys-and-nfc/screenshot-allow-access.jpg" width="400" class="img-responsive" />
  
 ### Créez une tâche Tasker
 
 Nous allons maintenant créer une tâche dans Tasker.
 
-####Comment dire à Gladys que je vais me coucher ?
+#### Comment dire à Gladys que je vais me coucher ?
 
 Un scénario simple que j'ai mis en place chez moi, c'est une petite tâche pour prévenir Gladys que je vais me coucher. 
 
@@ -51,7 +51,7 @@ Le principe: Avant de me coucher, je pose mon smartphone sur ma table de nuit ( 
 
 <img alt="Screenshot Gladys token" src="/assets/images/articles/gladys-and-nfc/token-gladys-v3.png" class="img-responsive" />
 
-<img alt="Screenshot set token tasker" src="/assets/images/articles/gladys-and-nfc/screenshot-set-token.jpg" width=400" class="img-responsive" />
+<img alt="Screenshot set token tasker" src="/assets/images/articles/gladys-and-nfc/screenshot-set-token.jpg" width="400" class="img-responsive" />
 
 - Revenez maintenant en arrière et créez une nouvelle action en cliquant sur `+` en bas comme précédemment. Sélectionnez `Réseau` puis `POST HTTP`.
 - Remplissez le champ `Serveur:port` avec le serveur et le port de votre instance Gladys, example : `IP_DE_VOTRE_RASPBERRY_PI`. Si votre Gladys écoute sur un port particulier, il faut le préciser à la fin. Exemple: `192.168.0.12:8080`. 
@@ -67,7 +67,7 @@ Vous pouvez mettre n'importe quel code parmi la liste d'events suivants : [https
 
 Le user est l'ID du user que vous voulez affecter par l'event. Si vous allez vous coucher, mettez votre ID ( vous pouvez trouver votre ID dans les paramètres de Gladys, rubrique `Mon compte` )
 
-<img alt="Screenshot edit task" src="/assets/images/articles/gladys-and-nfc/screenshot-edit-task2.jpg" width=400" class="img-responsive" />
+<img alt="Screenshot edit task" src="/assets/images/articles/gladys-and-nfc/screenshot-edit-task2.jpg" width="400" class="img-responsive" />
 
 - C'est bon, votre tâche est prête. Vous pouvez la tester en cliquant sur le bouton "play" en bas à gauche. Normalement vous devriez voir apparaître l'event dans l'onglet `Moi` de votre Gladys.
 
@@ -85,9 +85,9 @@ Le user est l'ID du user que vous voulez affecter par l'event. Si vous allez vou
 - Faites `Suivant`, puis `Terminé`, puis placez votre téléphone sur le tag NFC que vous voulez écrire. 
 - C'est bon, votre tag NFC est prêt!
 
-<img alt="Screenshot write NFC" src="/assets/images/articles/gladys-and-nfc/screenshot-write-nfc.jpg" width=400" class="img-responsive" />
+<img alt="Screenshot write NFC" src="/assets/images/articles/gladys-and-nfc/screenshot-write-nfc.jpg" width="400" class="img-responsive" />
 
-###Conclusion 
+### Conclusion 
 
 Grâce au NFC, les possiblitées sont infinies. Chaque recoin de votre maison où un sticker est collé devient un bouton qui peut déclencher une action sur Gladys. Je me sers depuis maintenant un mois de ces tags, et honnêtement c'est très pratique.
 

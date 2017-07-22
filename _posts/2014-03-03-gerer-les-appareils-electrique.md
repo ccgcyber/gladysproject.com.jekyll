@@ -8,7 +8,7 @@ lang: fr
 locale: fr_FR
 categories:
 - blog
-permalink: 
+permalink: /fr/article/gerer-les-appareils-electrique
 ---
 
 <div class="alert alert-info" role="alert" style="padding: 10px;">Update: 03/05/2017. Ce tutoriel a été adapté pour Gladys v3, il fonctionne pleinement avec Gladys !</div>

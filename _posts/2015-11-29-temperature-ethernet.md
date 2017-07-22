@@ -9,7 +9,7 @@ img: temperature-ethernet-cover.jpg
 altImg: Ethernet Temperature Sensor
 categories:
 - blog
-permalink: 
+permalink: /fr/article/temperature-ethernet
 ---
 
 <div class="alert alert-info" role="alert" style="padding: 10px;">Ce tutoriel a été adapté pour Gladys v3, il fonctionne pleinement avec Gladys !</div>

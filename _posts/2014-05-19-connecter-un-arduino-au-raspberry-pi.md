@@ -9,7 +9,7 @@ img: arduinounolow.jpg
 altImg: Connecter arduino au Raspberry Pi
 categories:
 - blog
-permalink: 
+permalink: /fr/article/connecter-un-arduino-au-raspberry-pi
 ---
 
 Le Raspberry est un outil formidable pour ses ports GPIOs, mais ceux-ci sont parfois trop limités pour des interactions électroniques beaucoup plus poussées.

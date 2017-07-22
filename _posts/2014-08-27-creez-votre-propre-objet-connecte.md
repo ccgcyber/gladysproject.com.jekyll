@@ -9,7 +9,7 @@ img: connectedobjectlow.jpg
 altImg: Créez votre propre objet connecté
 categories:
 - blog
-permalink: 
+permalink: /fr/article/creez-votre-propre-objet-connecte
 ---
 
 On parle de plus en plus des objets connectés, mais cela reste encore des gadgets cher, et pas très "bidouille"... Nous allons ici créer un objet connecté très simple, composé d'un accéléromètre et d'un émetteur 433Mhz (piloté par un arduino), qui va être capable d'envoyer son orientation ( Si l'objet est dans le bon sens, retourné, sur le côté, si l'objet est à l'envers ), et ainsi déclencher des actions en fonction de son sens. On peut imaginer un cube, à qui chaque face est associé une action ( passer la maison en mode nuit sur une face, ouvrir tous les stores sur une autre, lancer un scénario, etc... ) Dès que le cube serait tourné, un signal serait envoyé au Raspberry qui interpréterait l'action et déclencherait un scénario.  
@@ -17,7 +17,7 @@ Mais ce n'est qu'un exemple parmi tant d'autre ! Le but ici est de créer une ba
 
 J'en profite pour vous mettre une petite photo du rendu final (enfin final, sur la breadbord de développement !) 
 
-![Assemblage de l](/assets/images/articles/creez-votre-propre-objet-connecte/finalisation.jpg)
+<img alt="Assemblage de l'objet connecté" src="/assets/images/articles/creez-votre-propre-objet-connecte/finalisation.jpg" class="img-responsive" />
 
 ## Le matériel
 
@@ -41,7 +41,7 @@ Pour connecter l'accéléromètre, on branche les ports de l'accéléromètre (e
 -SDA => A4  
 -SDL => A5
 
-![Objet connecté final](/assets/images/articles/creez-votre-propre-objet-connecte/assemblage.jpg)
+<img alt="Objet connecté final" src="/assets/images/articles/creez-votre-propre-objet-connecte/assemblage.jpg" class="img-responsive" />
 
 Pour connecter l'émetteur 433Mhz, on branche les ports de l'émetteur (en premier) au ports suivant de l'arduino :  
 -VCC => 5V  
@@ -54,7 +54,7 @@ Enfin, on connecte le connecteur pour batterie 9V pour pouvoir alimenter notre o
 
 Pour que l'objet ait une portée suffisante, je vous conseille de fixer une antenne au port "ANT" de l'émetteur, de taille 17,2cm de préférence.
 
-![Objet connecté DIY](/assets/images/articles/creez-votre-propre-objet-connecte/objet_connecte_final.jpg)
+<img alt="Objet connecté DIY" src="/assets/images/articles/creez-votre-propre-objet-connecte/objet_connecte_final.jpg" class="img-responsive" />
 
 ## Le logiciel
 

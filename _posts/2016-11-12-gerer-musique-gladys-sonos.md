@@ -9,7 +9,7 @@ img: gladys-sonos-cover.jpg
 altImg: Gérer la musique dans Gladys avec des enceintes Sonos
 categories:
 - blog
-permalink: 
+permalink: /fr/article/gerer-musique-gladys-sonos
 ---
 
 Salut à tous !

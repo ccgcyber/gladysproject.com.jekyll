@@ -9,7 +9,7 @@ img: docker-cover.jpg
 altImg: Gladys et Docker !
 categories:
 - blog
-permalink: 
+permalink: /fr/article/gladys-et-docker
 ---
 
 Salut à tous ! 

@@ -9,7 +9,7 @@ img: bilan-2015-cover.jpg
 altImg: Bilan de l'année 2015
 categories:
 - blog
-permalink: 
+permalink: /fr/article/bilan-2015-et-projets-pour-2016
 ---
 
 Salut à tous! 
@@ -22,14 +22,14 @@ L'année 2015 a été une grande année pour le projet, et j'aimerais faire un p
 Et cette année vous avez été plus de 47 000 visiteurs uniques à venir sur le site Gladys ! Pour comparer à l'année 2014, c'est plus du double. Je vous ai mis un petit screenshot de mon Google Analytics pour commenter ça : 
 
 
-![Audience Gladys 2015](/assets/images/articles/bilan-2015/traffic-gladys-2015.jpg)
+<img alt="Audience Gladys 2015" src="/assets/images/articles/bilan-2015/traffic-gladys-2015.jpg" class="img-responsive" />
 
 
 Et le beau pic que l'on voit en plein milieu correspond au concours Raspberry Pi de Korben que Gladys avait gagnée ( [http://korben.info/les-gagnants-du-concours-de-projets-raspberry-pi.html](http://korben.info/les-gagnants-du-concours-de-projets-raspberry-pi.html) ). J'aimerais d'ailleurs remercier encore une fois Korben (si tu passe par ici!) pour l'énorme souffle qu'il a pu apporter au projet. C'est tout con, mais un petit lien comme ça nous a amené plus de 3 000 visiteurs uniques en à peine 48 heures. Et plus on est sur le projet, plus il y a de retours, de remarques, de personnes qui s'impliquent, de contributions sur le GitHub, de discussions sur le forum, etc... Et plus le projet avance! 
 
 J'ai eu la chance en début d'année d'être convié par une agence d'architectes Strasbourgeoise, Notes de Styles, pour faire une démonstration de Gladys devant les caméras de TF1 pour le JT. C'était une formidable expérience de parler du projet devant les caméras dans un cadre superbe (une maison tout équipée en domotique, entièrement connectée, des hauts parleurs dans chaque pièce, ça change de mon petit appart!). Malheureusement nous ne sommes passés que quelques secondes au JT (coupé au dernier moment au montage, faute de temps dans le JT), mais l'expérience reste la même, c'était une super journée !
 
-![Gladys sur TF1 2015](http://gladysproject.com/assets/images/press/Gladys_TF1.png)
+<img alt="Gladys sur TF1 2015" src="http://gladysproject.com/assets/images/press/Gladys_TF1.png" class="img-responsive" />
 
 
 Dernière statistique intéressante, depuis le début du projet, toute version de Gladys confondue, Gladys a été téléchargée plus de **8 800 fois** ! Et je parle juste de téléchargements via sourceforge, hors clonage github.

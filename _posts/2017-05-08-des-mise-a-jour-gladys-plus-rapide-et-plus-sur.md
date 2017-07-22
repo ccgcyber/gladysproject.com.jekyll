@@ -9,7 +9,7 @@ img: nouveau-process-maj-cover.jpg
 altImg: Des mises à jour Gladys plus rapides et plus stables ! 
 categories:
 - blog
-permalink: 
+permalink: /fr/article/des-mise-a-jour-gladys-plus-rapide-et-plus-sur
 ---
 
 Salut à tous!

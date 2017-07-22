@@ -9,7 +9,7 @@ img: wemo_icone_light.jpg
 altImg: Contrôler les prises Wemo Insight Switch
 categories:
 - blog
-permalink: 
+permalink: /fr/article/controler-prises-wemo-insight-switch
 ---
 Aujourd'hui je vais vous présenter la prise [**WeMo Insight Switch**](http://amzn.to/1CG0WQr), et vous expliquer comment la contrôler avec Node.js ! Pourquoi j'ai choisi cette prise ? Elle répond à beaucoup de mes besoins, et fait beaucoup plus que les prises RF que j'utilise actuellement. Notamment :
 
@@ -25,7 +25,7 @@ Elles sont certes un peu plus cher, mais de mon point de vue cette prise vaut la
 
 C'est tout simple, il vous faut juste une prise [WeMo Insight Switch](http://amzn.to/1CG0WQr) !
 
-![Wemo Insight Switch](/assets/images/articles/controler-prises-wemo/wemo_box_light.jpg)
+<img alt="Wemo Insight Switch" src="/assets/images/articles/controler-prises-wemo/wemo_box_light.jpg" class="img-responsive" />
 
 ## Installation
 
@@ -45,7 +45,7 @@ Je vous laisse jouer avec l'application, on peut s'amuser à créer des règles,
 
 Un exemple sympa d'utilisation tout simple, on branche la bouilloire à la prise, et on programme l'allumage pour le lendemain matin, et l'eau est chaude au levée !
 
-![L'eau qui bout le matin au levée !](/assets/images/articles/controler-prises-wemo/wemo_coffee_light.jpg)
+<img alt="L'eau qui bout le matin au levée !" src="/assets/images/articles/controler-prises-wemo/wemo_coffee_light.jpg" class="img-responsive" />
 *L'eau qui bout le matin au levée !*
 
 

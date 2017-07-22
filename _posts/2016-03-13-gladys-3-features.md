@@ -9,7 +9,7 @@ img: notebook-cover.jpg
 altImg: Ce qu'il faut attendre de Gladys 3.0 !
 categories:
 - blog
-permalink: 
+permalink: /fr/article/gladys-3-features
 ---
 
 Salut à tous! 
@@ -40,11 +40,11 @@ Cette notion de LifeEvent disparait dans Gladys 3.0 au profit d'une notion d'Eve
 
 C'est à dire que désormais, le flow de déclenchement d'un scénario est le suivant :
 
-![Schema Gladys évènements exemple](/assets/images/articles/gladys-3-annonce/event-process.png)
+<img alt="Schema Gladys évènements exemple" src="/assets/images/articles/gladys-3-annonce/event-process.png" class="img-responsive" />
 
 Pour donner un exemple concret, cela donne ça :
 
-![Schema Gladys évènements exemple](/assets/images/articles/gladys-3-annonce/event-process-example.png)
+<img alt="Schema Gladys évènements exemple" src="/assets/images/articles/gladys-3-annonce/event-process-example.png" class="img-responsive" />
 
 (Lire la partie suivante pour l'explication sur les modes)
 
@@ -54,17 +54,55 @@ On le voyait dans le précédent schéma, il y a une nouvelle notion dans Gladys
 
 En terme de relation, une maison à un instant t à **un et un seul mode**. Vous êtes en vacances, votre maison est en mode 'holidays'. Vous êtes au travail, en soirée à l'extérieur, votre maison est en mode "out". Le mode de la maison n'est lié à aucuns utilisateurs en particuliers, c'est à vous de définir ce qui fait passer la maison d'un mode à un autre. Si vous êtes plusieurs, pas de panique, c'est le premier utilisateur de retour à la maison qui va faire passer la maison de "out" à "at-home" par exemple.
 
-| Mode        | Description           | 
-| ------------- |:-------------:|
-| at-home | Vous êtes à la maison, tout est normal. |
-| coming-back-home | Vous êtes en train de rentrer chez vous. Gladys doit allumer le chauffage, ouvrir les volets. |
-| out |  Vous n'êtes pas chez vous pour quelques heures/la journée. Mode sécurisé.  |
-| holidays     | Lorsque que vous partez en vacances, que la maison est vide. Mode sécurisé, volets fermés. |
-| nap | Vous faites une sieste, extinction des lumières. Fermeture partielle des volets |
-| sleep | C'est la nuit, vous dormez. Volets fermés, lumières éteintes. ( je n'ai pas mis comme nom d'évènement "night" pour nos amis les travailleurs de nuit qui eux aussi dorment mais pas la nuit :D )|
-| party | C'est la fête ! Mode soirée activé, lumières colorées et playlist soirée. |
-| romantic | Soirée romantique, lumières tamisées rouge et petit jazz en arrière plan ( ce mode est quasiment le plus demandé dans le sondage que j'ai fais l'autre jour ! ) |
-| cinema | Vous regardez un film, lumières éteintes dans le salon, télévision allumée, lumière tamisée lors de mouvements dans la cuisine ou vers les toilettes. |
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Mode</th>
+            <th style="text-align: center">Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>at-home</td>
+            <td style="text-align: center">Vous êtes à la maison, tout est normal.</td>
+        </tr>
+        <tr>
+            <td>coming-back-home</td>
+            <td style="text-align: center">Vous êtes en train de rentrer chez vous. Gladys doit allumer le chauffage, ouvrir les volets.</td>
+        </tr>
+        <tr>
+            <td>out</td>
+            <td style="text-align: center">Vous n'êtes pas chez vous pour quelques heures/la journée. Mode sécurisé.</td>
+        </tr>
+        <tr>
+            <td>holidays</td>
+            <td style="text-align: center">Lorsque que vous partez en vacances, que la maison est vide. Mode sécurisé, volets fermés.</td>
+        </tr>
+        <tr>
+            <td>nap</td>
+            <td style="text-align: center">Vous faites une sieste, extinction des lumières. Fermeture partielle des volets</td>
+        </tr>
+        <tr>
+            <td>sleep</td>
+            <td style="text-align: center">&nbsp;C'est la nuit, vous dormez. Volets fermés, lumières éteintes. ( je n'ai pas mis comme nom d'évènement "night"
+                pour nos amis les travailleurs de nuit qui eux aussi dorment mais pas la nuit :D )</td>
+        </tr>
+        <tr>
+            <td>party</td>
+            <td style="text-align: center">C'est la fête ! Mode soirée activé, lumières colorées et playlist soirée.</td>
+        </tr>
+        <tr>
+            <td>romantic</td>
+            <td style="text-align: center">Soirée romantique, lumières tamisées rouge et petit jazz en arrière plan ( ce mode est quasiment le plus demandé
+                dans le sondage que j'ai fais l'autre jour ! )</td>
+        </tr>
+        <tr>
+            <td>cinema</td>
+            <td style="text-align: center">Vous regardez un film, lumières éteintes dans le salon, télévision allumée, lumière tamisée lors de mouvements
+                dans la cuisine ou vers les toilettes.</td>
+        </tr>
+    </tbody>
+</table>
 
 **Note:** Tous les exemples donner ci-dessus sont à titre indicatif pour donner un exemple concret d'usage, mais c'est à vous de définir ce que vous voulez lancer. Comme c'est à vous de définir les différents modes de votre maison.
 

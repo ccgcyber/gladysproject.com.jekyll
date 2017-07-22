@@ -9,7 +9,7 @@ img: gladys-3-5-cover.jpg
 altImg: Du machine learning dans Gladys 3.5 !
 categories:
 - blog
-permalink: 
+permalink: /fr/article/gladys-3-5-machine-learning
 ---
 
 Salut à tous !

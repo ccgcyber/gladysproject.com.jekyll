@@ -9,7 +9,7 @@ img: gladys-3-6-cover-2.jpg
 altImg: Gladys 3.6
 categories:
 - blog
-permalink: 
+permalink: /fr/article/bilan-mois-mai-pour-le-projet-gladys
 ---
 
 Salut à tous,

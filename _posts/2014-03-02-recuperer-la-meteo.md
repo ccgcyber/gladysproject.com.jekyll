@@ -8,7 +8,7 @@ lang: fr
 locale: fr_FR
 categories:
 - blog
-permalink: 
+permalink: /fr/article/recuperer-la-meteo
 ---
 
 Pour avoir la météo au réveil, ou pour pouvoir nous prévenir quand nous partons de chez nous qu'il pleut... Gladys doit avoir accès à la météo ! Nous allons utiliser ici l'API d'[OpenWeatherMap](http://openweathermap.org/API#forecast), une API gratuite ! ( du moins, tant qu'on ne fait pas trop d'appels ).

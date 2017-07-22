@@ -9,7 +9,7 @@ img: gladys-voice-cover.jpg
 altImg: Reconnaissance vocale Raspberry Pi Gladys
 categories:
 - blog
-permalink: 
+permalink: /fr/article/voice-recognition-gladys
 ---
 
 Salut à tous !

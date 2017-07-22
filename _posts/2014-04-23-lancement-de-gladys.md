@@ -7,7 +7,7 @@ lang: fr
 locale: fr_FR
 categories:
 - blog
-permalink: 
+permalink: /fr/article/lancement-de-gladys
 ---
 
 Ca y est, Gladys est disponible !

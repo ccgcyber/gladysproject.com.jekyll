@@ -9,7 +9,7 @@ lang: fr
 locale: fr_FR
 categories:
 - blog
-permalink: 
+permalink: /fr/article/faire-parler-le-raspberry
 ---
 
 Pour faire parler notre Raspberry, nous allons utiliser plusieurs outils : La synthèse vocale de Google, le lecteur mpg321, et PHP.

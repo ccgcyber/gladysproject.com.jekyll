@@ -9,7 +9,7 @@ img: ifttt-cover.jpg
 altImg: IFTTT et Gladys
 categories:
 - blog
-permalink: 
+permalink: /fr/article/declenchez-des-scenarios-ifttt-depuis-gladys
 ---
 
 Salut à tous !

@@ -8,7 +8,7 @@ lang: fr
 locale: fr_FR
 categories:
 - blog
-permalink: 
+permalink: /fr/article/detecter-les-entrees-et-les-sorties
 ---
 
 <div class="bg-warning" role="alert" style="padding: 10px; margin-bottom: 15px;">Attention, ce tutoriel a été écrit bien avant la sortie de Gladys, il explique comment brancher un détecteur de mouvement filaire au Raspberry Pi. Ce tutoriel est donc indépendant de Gladys!</div>
