@@ -61,13 +61,10 @@ task :disquscomments do
     siteid  = post_disqus_short_name || site_disqus_short_name
     api_key = site["comments"]["disqus"]["api_key"]
 
-    ident = ident + '.html';
+    ident = ident
 
     uri = "http://disqus.com/api/3.0/threads/listPosts.json?forum=" \
         "#{siteid}&thread:ident=#{ident}&api_key=#{api_key}&limit=100"
-
-    uri = "http://disqus.com/api/3.0/threads/listPosts.json?forum=" \
-        "#{siteid}&thread:link=https://pierregillesleymarie.com/blog/2017/07/03/how-i-replaced-my-macbook-pro-by-a-raspberry-pi.html&api_key=#{api_key}&limit=100"
             
     warn uri
     url = URI.parse(uri)

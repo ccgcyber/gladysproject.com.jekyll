@@ -9,7 +9,13 @@
     {% include google-analytics.html %}
   {% endif %}
 
-    {% seo %}
+
+    {% if page.url == '/fr/' or page.url == '/en/' %}
+      <title>{{ page.title }} | {{ page.description }}</title>
+      {% seo title=false %}
+    {% else %}
+      {% seo %}
+    {% endif %}
 
     <link rel="stylesheet" href="/assets/main2.css">
 
@@ -22,11 +28,11 @@
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
     <!-- Plugin CSS -->
-    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="lib/simple-line-icons/css/simple-line-icons.css">
-    <link rel="stylesheet" href="lib/device-mockups/device-mockups.min.css">
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="/assets/css/rrssb.css">
+
+    <link rel="stylesheet" href="/assets/css/timeline.css">
 
     <!-- Theme CSS -->
     <link href="/assets/css/new-age.css" rel="stylesheet">

@@ -1,5 +1,5 @@
 ---
-title: My page
+title: Développer un script
 layout: documentation
 lang: fr
 ---

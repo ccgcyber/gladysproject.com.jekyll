@@ -1,5 +1,5 @@
 ---
-title: My page
+title: Développer un module Gladys
 layout: documentation
 lang: fr
 ---

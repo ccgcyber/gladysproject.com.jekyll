@@ -30,6 +30,7 @@ gem "rake", "~> 11.0"
 gem "domainatrix"
 
 gem 'jekyll-seo-tag'
+gem 'jekyll-sitemap'
 
 group :test do
   gem "rubocop"

@@ -4,7 +4,12 @@
   <script>
     var disqus_config = function () {
       this.page.url = '{{ page.url | absolute_url }}';
-      this.page.identifier = '{{ page.url | absolute_url }}';
+
+      {% if page.identifier %}
+        this.page.identifier = '{{ page.identifier }}';
+      {% else %}
+        this.page.identifier = '{{ page.url }}';
+      {% endif %}
     };
 
     (function() {

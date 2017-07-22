@@ -1,5 +1,5 @@
 ---
-title: My page
+title: L'API REST
 layout: documentation
 lang: fr
 ---

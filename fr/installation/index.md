@@ -1,7 +1,8 @@
 ---
-title: My page
+title: Installation
 layout: documentation
 lang: fr
+identifier: /fr/installation
 ---
 
 ## Par où commencer ?

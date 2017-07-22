@@ -3,6 +3,7 @@
 # See README.mdwn for detailed documentation on this plugin.
 #
 # Homepage: http://theshed.hezmatt.org/jekyll-static-comments
+# https://github.com/pathawks/jekyll-disqus-comments
 #
 #  Copyright (C) 2011 Matt Palmer <mpalmer@hezmatt.org>
 #

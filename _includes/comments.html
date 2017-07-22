@@ -1,4 +1,3 @@
-<h1>COMMENTS</h1>
 {% if page.comments.size %}
     <meta itemprop="interactionCount" content="UserComments:{{ page.comments.size }}"/>
 {% endif %}
@@ -36,3 +35,7 @@
 		{% endfor %}
 	</ul>
 </div>
+
+{% if site.disqus.shortname %}
+	{% include disqus_comments.html %}
+{% endif %}

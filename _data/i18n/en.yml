@@ -1,3 +1,13 @@
+documentation:
+  installation: Installation
+  configureHouse: Configure your house
+  configureDevices: Configure your devices
+  talkingToGladys: Talking to Gladys
+  developModule: Developing a module
+  developScript: Developing a script
+  httpApi: Gladys REST API
+  nodejsApi: Gladys Node.js API
+
 lang:
   french: Français
   english: English

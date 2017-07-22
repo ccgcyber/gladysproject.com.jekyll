@@ -1,5 +1,5 @@
 ---
-title: My page
+title: L'API Node.js Gladys
 layout: documentation
 lang: fr
 ---
