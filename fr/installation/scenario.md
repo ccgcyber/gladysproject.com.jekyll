@@ -1,12 +1,12 @@
 ---
-title: Scenario
+title: Les scénarios dans Gladys
 description: Comment mettre en place des scénarios poussés dans Gladys ?
 layout: documentation
 lang: fr
 image: /assets/images/presentation/facebook_share_gladys.png
 ---
 
-## Les scénarios dans Gladys
+# Les scénarios dans Gladys
 
 Les scénarios dans Gladys sont faciles à aborder. Ils sont basés sur un concept simple :
 

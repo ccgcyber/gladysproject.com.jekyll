@@ -6,7 +6,7 @@ lang: fr
 image: /assets/images/presentation/facebook_share_gladys.png
 ---
 
-## Parler à Gladys
+# Parler avec Gladys
 
 Pour parler à Gladys, deux moyens : Par la voix ou par message. Pour parler à Gladys par la voix, j'avais écris un tutoriel [sur le blog](/blog/2016/10/25/voice-recognition-gladys.html), pour parler à Gladys par message, c'est possible sur le dashboard Gladys, ou via [l'application Telegram](https://developer.gladysproject.com/fr/modules/telegram).
 

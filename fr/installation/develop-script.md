@@ -6,7 +6,7 @@ lang: fr
 image: /assets/images/presentation/facebook_share_gladys.png
 ---
 
-## Développer un script
+# Développer un script Gladys
 
 Les script dans Gladys vous permettent de créer des petits programmes en javascript, afin de faire des actions beaucoup plus fines qu'avec un scénario.
 

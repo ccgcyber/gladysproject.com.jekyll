@@ -6,6 +6,8 @@ lang: fr
 image: /assets/images/presentation/facebook_share_gladys.png
 ---
 
+# Développer un module Gladys
+
 ## Les quatres piliers du développement Gladys
 
 Avant de vous commencer à vous expliquer ce qu'est un module Gladys, je voudrais définir ici les quatres valeurs qui me tiennent à coeur en développant Gladys, et que vous devez aussi prendre en compte dans le développement de modules pour que l'ensemble soit harmonieux !

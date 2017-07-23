@@ -6,7 +6,7 @@ lang: fr
 image: /assets/images/presentation/facebook_share_gladys.png
 ---
 
-## Ajoutez des périphériques
+# Ajouter des périphériques dans Gladys
 
 Vous voulez probablement contrôler avec Gladys vos ampoules connectées, vos prises, votre machine à café, votre musique, etc... 
 

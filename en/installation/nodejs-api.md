@@ -5,7 +5,7 @@ layout: documentation
 lang: en
 ---
 
-## Gladys Node.js API
+# Gladys Node.js API
 
 If you are in a script, or in a module, you probably wants to use Gladys functions.
 

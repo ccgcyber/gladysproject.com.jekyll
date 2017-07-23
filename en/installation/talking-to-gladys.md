@@ -5,7 +5,7 @@ layout: documentation
 lang: en
 ---
 
-## Talking to Gladys
+# Talking to Gladys
 
 To speak with Gladys, you can either use [gladys-voice](https://github.com/GladysProject/gladys-voice) to talk with her, or you can speak by message directly on Gladys dashboard, or with the [Telegram app](https://developer.gladysproject.com/en/modules/telegram).
 

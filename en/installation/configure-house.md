@@ -5,7 +5,7 @@ layout: documentation
 lang: en
 ---
 
-## Configure your house in Gladys
+# Configure your house in Gladys
 
 In Gladys, the first thing that you have to do is to configure your house. You need to declare each room in Gladys.
 

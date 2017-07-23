@@ -1,11 +1,11 @@
 ---
-title: Develop Gladys Script
+title: How to write a Gladys Script
 description: Learn how to develop a Gladys script with JavaScript!
 layout: documentation
 lang: en
 ---
 
-## Writing a Gladys script
+# How to write a Gladys Script
 
 Scripts in Gladys allows you to write little JavaScript programs with access to the full API of Gladys.
 

@@ -1,9 +1,11 @@
 ---
-title: Develop Gladys Module
+title: How to develop a Gladys module
 description: Learn how to develop a Gladys module with Node.js !
 layout: documentation
 lang: en
 ---
+
+# How to develop a Gladys module
 
 ## The Four Pillars of Gladys development 
 

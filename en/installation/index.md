@@ -5,7 +5,7 @@ layout: documentation
 lang: en
 ---
 
-## Getting started
+# Installing Gladys on a Raspberry Pi
 
 Gladys is a small server written in Node.js. It's built to run on Linux, Windows or Mac. But I recommend running Gladys on a Raspberry Pi.
 

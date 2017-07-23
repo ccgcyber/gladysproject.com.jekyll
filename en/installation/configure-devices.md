@@ -5,7 +5,7 @@ layout: documentation
 lang: en
 ---
 
-## Add devices to Gladys
+# Configure your devices in Gladys
 
 You probably want to control everything in your house with Gladys: Connected lights, coffee machine, music...
 

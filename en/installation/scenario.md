@@ -1,69 +1,65 @@
 ---
-title: Scenario
+title: Scenarios in Gladys
 description: Learn how to setup scenarios in Gladys
 layout: documentation
 lang: fr
 ---
 
-## Les scénarios dans Gladys
+# Scenarios in Gladys
 
-Les scénarios dans Gladys sont faciles à aborder. Ils sont basés sur un concept simple :
+Scenarios in Gladys are really easy. It's based on a single concept : 
 
-- D'abord, il y a un Déclencheur (un événement). Par exemple : "**SI** je vais me coucher".
-- Ensuite, il y a des Conditions. Par exemple : "**ET** qu'il est plus de 21h".
-- Enfin, il y a des Actions. Par exemple : "**ALORS** éteins toutes les lumières **ET** exécute ce script."
+- First, there is a Trigger ( an "event" ). Like "**IF** I'm going to sleep".
+- Then, there are conditions "**AND** current time is more than 9PM" 
+- Finally, there are actions "**THEN** turn off the lights everywhere **AND** execute this script."
 
-Les différents types de déclencheurs ('triggers'), de conditions et d'actions sont définis dans un [repo Git à part](https://github.com/GladysProject/Gladys-data) via un ensemble de fichiers JSON, et peuvent être mis à jour directement depuis Gladys.
-Vous pourrez ensuite créer vos scénarios à partir de ces différents types directement depuis l'interface de Gladys.
+All these types of triggers, conditions, and actions are defined in a special [Git repository](https://github.com/GladysProject/Gladys-data) via a set of JSON files, and can be updated remotely in Gladys.
 
-### Étendre les possibilités des scénarios
+Then, you can create scenarios based on these types of triggers/conditions/actions directly in Gladys on the dashboard.
 
-Rendez-vous sur l'interface de Gladys, allez dans `Paramètres` puis cliquez sur `Mettre à jour les données Gladys`. Tous les fichiers JSON seront téléchargés, vous permettant d'étendre les possibilités de vos scénarios.
+### Updating scenario possibilities
 
-Vous pouvez effectuer cette mise à jour quand bon vous semble. Essayez !
+Go to your Gladys dashboard, then go to `Parameters`, and click on `Update Gladys data`. It will download all JSON and update scenario possibilities. 
 
-### Créer un scénario
+You can update them whenever you want. Try to update 
 
-Afin de créer un scénario, rendez-vous dans l'onglet `Scénarios`.
+### Creating a scenario
 
-#### Cliquer sur `Nouveau`
+To create a scenario, first go the the `Scenario` panel. 
 
-Vous devriez voir apparaître cette fenêtre, vous proposant différentes catégories de déclencheurs. Sélectionnez `Alarme`.
+#### Click on `Create`.
+
+You should arrive on this view. You have differents categories of triggers. Select `Alarms` here.
 
 <img alt="Scenario Gladys" src="/assets/images/documentation/scenarios/scenario-1.png" class="img-responsive" />
 
-#### Sélectionner un déclencheur
+#### Select a trigger
 
-Sélectionnez le seul déclencheur disponible, à savoir "Quand une alarme se déclenche". Vous pouvez alors choisir une alarme spécifique ou bien ne rien sélectionner, ce qui aura pour effet d'activer le scénario pour toutes les alarmes.
+Select the only trigger here "When an alarm fire". You can then either select a specific alarm, or leave it blank so it will fire on any alarm.
 
 <img alt="Scenario Gladys" src="/assets/images/documentation/scenarios/scenario-2.png" class="img-responsive" />
 
 #### Conditions
 
-Pour cet exemple, nous n'ajouterons pas de conditions. Passez cette étape en cliquant sur `Suivant`.
+For this example, we won't add conditions. Skip this step.
 
 <img alt="Scenario Gladys" src="/assets/images/documentation/scenarios/scenario-3.png" class="img-responsive" />
 
 ### Actions
 
-Vous pouvez désormais choisir les actions que vous souhaitez réaliser lorsque le scénario est déclenché. Pour notre exemple, choisissez `Nouvelle notification`.
+You can now select actions you want to start when the event is triggered. Here, I will show you an example with the "Create Notification" action. Select `New Notification`.
 
 <img alt="Scenario Gladys" src="/assets/images/documentation/scenarios/scenario-5.png" class="img-responsive" />
 
-### Paramètres des actions
+### Actions Params
 
-Une notification vide n'ayant que peu d'intérêt, faites défiler la fenêtre vers le bas pour voir apparaître les différents paramètres possibles.
-En l'occurrence, Gladys nous propose de spécifier le titre et le contenu de notre notification, ainsi que sa couleur, son icône et l'utilisateur qui la recevra.
-
-#### Quelques précisions sur les notifications :
-- La priorité définit la façon dont la notification sera transmise. Par exemple, on peut imaginer qu'une notification de priorité 1 sera communiquée à la fois par SMS, par retour vocal via une enceinte et par un message affiché sur l'écran, tandis qu'une notification de priorité 3 ne sera rien de plus que ce message sur l'écran (fonctionnement en cascade). Par défaut, Gladys ne propose que cette dernière possibilité, mais divers modules permettent de prendre en charge d'autres moyens de communication. Les priorités peuvent être paramétrées via l'onglet `Paramètres` > `Notifications`.
-- Les couleurs s'expriment sous la forme `bg-couleur` (par exemple : bg-blue, bg-red, etc).
-- Les icônes disponibles correspondent à celles de la catégorie Font Awesome listées sur [cette page](http://www.w3schools.com/icons/icons_reference.asp).
+You probably want to enter manually the text of the notification, the title, the color of the notification, the icon, and which gladys user will receive the notificatioN. Scroll down and enter the informations you want to provide the action :
 
 <img alt="Scenario Gladys" src="/assets/images/documentation/scenarios/scenario-6.png" class="img-responsive" />
 
-### Félicitations !
+### Congrats !
 
-Cliquez sur `Enregistrer scénario`. Voilà, vous avez créé votre premier scénario !
+Now save your scenario, and boom, your first scenario is created !
 
-Pour le tester, vous n'avez plus qu'à créer une alarme qui correspond à la définition de votre scénario (se référer en cas de besoin au tutoriel [Comment créer une alarme dans Gladys](https://developer.gladysproject.com/fr/documentation/alarm)) !
+Just try to create an alarm ( see our tutorial on [How to create a Gladys Alarm](https://developer.gladysproject.com/en/documentation/alarm) ), and try the scenario ! 
+

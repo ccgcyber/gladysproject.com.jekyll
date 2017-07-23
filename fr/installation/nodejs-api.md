@@ -6,7 +6,7 @@ lang: fr
 image: /assets/images/presentation/facebook_share_gladys.png
 ---
 
-## Les fonctions disponibles dans Gladys
+# L'API Node.js Gladys
 
 Que vous soyez dans des scripts, ou dans un module Gladys, vous pouvez accéder à toutes les fonctions de l'API Gladys.
 
