@@ -2,6 +2,7 @@
 title: Parler à Gladys
 layout: documentation
 lang: fr
+image: /assets/images/presentation/facebook_share_gladys.png
 ---
 
 ## Parler à Gladys

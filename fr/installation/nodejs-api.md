@@ -2,6 +2,7 @@
 title: L'API Node.js Gladys
 layout: documentation
 lang: fr
+image: /assets/images/presentation/facebook_share_gladys.png
 ---
 
 ## Les fonctions disponibles dans Gladys

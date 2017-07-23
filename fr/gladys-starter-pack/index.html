@@ -1,30 +1,42 @@
+---
+title: Gladys starter pack
+lang: fr
+image: /assets/images/landing/gladys-telegram-cover.jpg
+---
 
 <!doctype html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Gladys Starter Pack</title>
+        <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="/assets/css/landing/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
         <link href="/assets/css/landing/icons.min.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="/assets/css/landing/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
-       <!-- <link href="/assets/css/landing/flexslider.min.css" rel="stylesheet" type="text/css" media="all"/>-->
+       	<!-- <link href="/assets/css/landing/flexslider.min.css" rel="stylesheet" type="text/css" media="all"/>-->
         <link href="/assets/css/landing/theme-blue.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="/assets/css/landing/custom.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-        <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,700" rel="stylesheet" type="text/css">
-        <link href="/assets/css/landing/font-opensans.css" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic|Open+Sans:300italic,400,300,700' rel='stylesheet' type='text/css'>
+		<link href="/assets/css/landing/font-opensans.css" rel="stylesheet" type="text/css">
+		
+
+		<meta name="description" content="{{ page.description }}">
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@gladysproject">
+		<meta name="twitter:title" content="{{ page.title }}">
+		<meta name="twitter:description" content="{{ page.description }}">
+		<meta name="twitter:image:src" content="{{ page.image | absolute_url }}">
+
+		<meta property="og:title" content="{{ page.title }}"/>
+		<meta property="og:image" content="{{ page.image | absolute_url }}"/>
+		<meta property="og:description" content="{{ page.description }}"/>
     </head>
 
     <body>
 
 				
 		<div class="nav-container">
-			
-			
-		
-			
-		
+				
 		</div>
 		
 		<div class="main-container">
@@ -329,9 +341,18 @@
 				</div>
 			</footer>
 		</div>
-		
-			
-    </body>
+	</body>
+
+	{% if jekyll.environment == "production" %}
+		{% include google-analytics.html %}
+		{% include hotjar.html %}
+		{% include pixel.html %}
+	{% endif %}
+	
+	<script>
+		fbq('track', 'ViewContent');
+	</script>
+
 </html>
 
 				

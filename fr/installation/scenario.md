@@ -2,6 +2,7 @@
 title: Scenario
 layout: documentation
 lang: fr
+image: /assets/images/presentation/facebook_share_gladys.png
 ---
 
 ## Les scénarios dans Gladys

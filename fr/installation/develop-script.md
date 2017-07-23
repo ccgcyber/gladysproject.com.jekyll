@@ -2,6 +2,7 @@
 title: Développer un script
 layout: documentation
 lang: fr
+image: /assets/images/presentation/facebook_share_gladys.png
 ---
 
 ## Développer un script

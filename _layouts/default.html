@@ -30,5 +30,11 @@
       <script src="/assets/js/sweetalert.min.js"></script>
       <script src="/assets/js/app.js"></script>
   {% endif %}
+
+  {% if jekyll.environment == "production" %}
+    {% include google-analytics.html %}
+    {% include sumo.html %}
+    {% include pixel.html %}
+  {% endif %}
   
 </html>

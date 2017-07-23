@@ -2,6 +2,7 @@
 title: Configurer votre logement 
 layout: documentation
 lang: fr
+image: /assets/images/presentation/facebook_share_gladys.png
 ---
 
 ## Configurer votre logement dans Gladys

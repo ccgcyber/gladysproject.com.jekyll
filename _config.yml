@@ -34,10 +34,14 @@ facebook_username: gladysproject
 instagram_username: gladysproject
 plugins: [jekyll-feed, jekyll-paginate-v2, jekyll-seo-tag, jekyll-sitemap]
 
+# Tracking
+google_analytics: UA-42837031-1
+sumo-site-id: d1640d1e25d422b2dececeb749db8ca19998f2a44e94b8b2bceaa9e216c26dad
+
 #SEO plugins infos
 twitter:
   username: gladysproject
-logo: /assets/
+logo: /assets/images/presentation/facebook_share_gladys.png
 social:
   name: Gladys Project
   links:

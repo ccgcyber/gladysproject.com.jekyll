@@ -2,6 +2,7 @@
 title: Développer un module Gladys
 layout: documentation
 lang: fr
+image: /assets/images/presentation/facebook_share_gladys.png
 ---
 
 ## Les quatres piliers du développement Gladys
