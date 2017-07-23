@@ -58,6 +58,14 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
 
+mailchimp:
+  fr: 
+    url: //gladysproject.us10.list-manage.com/subscribe/post?u=2987d27cbb489c6da217450c2&amp;id=e20efa438f
+    key: b_2987d27cbb489c6da217450c2_e20efa438f
+  en:
+    url: //gladysproject.us10.list-manage.com/subscribe/post?u=2987d27cbb489c6da217450c2&amp;id=4c1084579b
+    key: b_2987d27cbb489c6da217450c2_e20efa438f
+
 disqus:
     shortname: test2-12
 

@@ -33,7 +33,7 @@
   language: "fr"
   name: "Wemo Insight Switch"
   img: "wemo-insight-switch.jpg"
-  description: "Les prises Wemo sont des prises Wi-Fi avec contrôle de la consommation d'énergie. L'avantage est que l'on a un retour sur l'état de la prise."
+  description: "Les prises Wemo sont des prises Wi-Fi avec contrôle de la consommation d'énergie, et retour d'état!"
   link: "belkin-wemo-insight-switch"
   tutorial: "http://gladysproject.com/fr/article/controler-prises-wemo-insight-switch"
   idx: 13

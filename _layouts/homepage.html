@@ -9,10 +9,11 @@ layout: default
                 <div class="col-sm-7">
                     <div class="header-content">
                         <div class="header-content-inner">
-                            <h1>Gladys, your home assistant</h1>
-                            <h4>Gladys is an open-source program which runs on your Raspberry Pi. <br />
-It communicates with all your devices and checks your calendar to help you in your everyday life.</h4>
-                            <a href="/{{ page.lang }}/installation" class="btn btn-outline btn-xl page-scroll">Start Now for Free!</a>
+                            <h1>{{site.data.i18n[page.lang].homepage.bigTitle}}</h1>
+                            <h4>{{site.data.i18n[page.lang].homepage.smallSentence}}<br />
+                                {{site.data.i18n[page.lang].homepage.smallSentenceLine}}
+                            </h4>
+                            <a href="/{{ page.lang }}/installation" class="btn btn-outline btn-xl page-scroll">{{site.data.i18n[page.lang].homepage.installButton}}</a>
                         </div>
                     </div>
                 </div>
@@ -35,36 +36,24 @@ It communicates with all your devices and checks your calendar to help you in yo
         </div>
     </header>
 
-    <!--<section id="download" class="download bg-primary text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <h2 class="section-heading">Discover what all the buzz is about!</h2>
-                    <p>Our app is available on any mobile device! Download now to get started!</p>
-                    <div class="badges">
-                        <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
-                        <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>-->
-
     <section class="section-email-input" >
         <div class="container">
             <div class="col-md-8">
-                <h3>Join the community, and receive news about the project !</h3>
+                <h3>{{site.data.i18n[page.lang].homepage.sentenceEmail}}</h3>
             </div>
                 
             <div class="col-md-4" >
                
-               <div class="input-group input-group-lg email-input-group">
-                  <input type="text" id="followGladysInput" class="form-control" placeholder="Email">
-                  <input type="hidden" id="messageSubscribe" value="subscribe"/>
-                  <span class="input-group-btn">
-                    <button class="btn btn-primary" id="button-subscribe-email" type="button">Join</button>
-                  </span>
-                </div><!-- /input-group -->
+                    <form action="{{site.mailchimp[page.lang].url}}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div class="input-group input-group-lg email-input-group">
+                            <input type="email" value="" name="EMAIL" id="followGladysInput" class="form-control" placeholder="Email">
+                            
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="{{site.mailchimp[page.lang].key}}" tabindex="-1" value=""></div>
+                            <span class="input-group-btn">
+                                <input class="btn btn-primary" type="submit" value="{{site.data.i18n[page.lang].homepage.buttonEmail}}"/>
+                            </span>
+                        </div> 
+                    </form>
                
             </div>
         </div>
@@ -77,20 +66,17 @@ It communicates with all your devices and checks your calendar to help you in yo
         
 <div class="container">
     <div class="page-header">
-        <h2 class="text-center">Une journée avec Gladys</h2>
+        <h2 class="text-center">{{site.data.i18n[page.lang].homepage.features.title}}</h2>
     </div>
     <ul class="timeline">
         <li>
           <div class="timeline-badge"><i class="fa fa-clock-o"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="timeline-title">Réveillez-vous en douceur</h4>
+              <h4 class="timeline-title">{{site.data.i18n[page.lang].homepage.features.wakeUp.title}}</h4>
             </div>
             <div class="timeline-body">
-              <p>Il est 8h, Gladys me réveille car elle sait qu'à 9H je dois aller travailler, et que je mets,
-                                    selon mes préférences, 30 minutes pour me préparer, et que selon l'état actuel du trafic,
-                                    je vais mettre 30 minutes en voiture pour aller au bureau. Elle a vu grâce à une API
-                                    de météo qu'il pleut dehors, et en profite pour me le signaler au réveil.</p>
+              <p>{{site.data.i18n[page.lang].homepage.features.wakeUp.text}}</p>
             </div>
           </div>
         </li>
@@ -98,11 +84,10 @@ It communicates with all your devices and checks your calendar to help you in yo
           <div class="timeline-badge warning"><i class="fa fa-rss"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="timeline-title">Analyse des mouvements</h4>
+              <h4 class="timeline-title">{{site.data.i18n[page.lang].homepage.features.controlHouse.title}}</h4>
             </div>
             <div class="timeline-body">
-              <p>Il est 8h10, dès que je sors de mon lit, Gladys détecte un mouvement dans la pièce et coupe
-                    le réveil, allume la lumière de la pièce, lance une playlist calme et ouvre les volets.</p>
+              <p>{{site.data.i18n[page.lang].homepage.features.controlHouse.text}}</p>
             </div>
           </div>
         </li>
@@ -110,14 +95,10 @@ It communicates with all your devices and checks your calendar to help you in yo
           <div class="timeline-badge success"><i class="fa fa-calendar-plus-o"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="timeline-title">Des scénarios intelligents</h4>
+              <h4 class="timeline-title">{{site.data.i18n[page.lang].homepage.features.scenario.title}}</h4>
             </div>
             <div class="timeline-body">
-              <p>Il est 8h45, je sors de chez moi pour aller travailler, Gladys détecte que je ne suis plus
-                                    là, elle coupe lumière et la musique. Cependant, après le boulot, je sors chez des amis,
-                                    et reste dormir chez eux. Gladys sait que je ne suis pas rentré (pas de mouvement n'a
-                                    été détecté), et désactive donc le réveil du lendemain, car pas besoin de sonner si je
-                                    ne dors pas chez moi, et que mon appartement est vide.</p>
+              <p>{{site.data.i18n[page.lang].homepage.features.scenario.text}}</p>
             </div>
           </div>
         </li>
@@ -125,11 +106,10 @@ It communicates with all your devices and checks your calendar to help you in yo
             <div class="timeline-badge danger"><i class="fa fa-heart"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="timeline-title">Toujours là pour vous</h4>
+              <h4 class="timeline-title">{{site.data.i18n[page.lang].homepage.features.sleep.title}}</h4>
             </div>
             <div class="timeline-body">
-              <p>Il est 19h, je rentres du bureau, Gladys allume la lumière, me souhaite la bienvenue, et
-                                    me notifie les messages que j'ai reçu en mon absence.</p>
+              <p>{{site.data.i18n[page.lang].homepage.features.sleep.text}}</p>
             </div>
           </div>
         </li>
@@ -140,39 +120,39 @@ It communicates with all your devices and checks your calendar to help you in yo
 
     <div class="container">
             <div class="page-header">
-                <h2 class="text-center">Matériel compatible</h2>
+                <h2 class="text-center">{{site.data.i18n[page.lang].homepage.hardware.title}}</h2>
             </div>
 				
 					<div class="row">
 						<div class="col-sm-3 text-center feature">
 							<img alt="Feature Image" class="img-responsive" src="/assets/images/products/raspberry-pi.jpg">
-							<h5>Raspberry Pi</h5>
+							<h5>{{site.data.i18n[page.lang].homepage.hardware.raspberryPi.title}}</h5>
 							<p>
-								Gladys tourne sur Raspberry Pi, c'est la base du système.
+								{{site.data.i18n[page.lang].homepage.hardware.raspberryPi.description}}
 							</p>
 						</div>
 					
 						<div class="col-sm-3 text-center feature">
 							<img alt="Feature Image"  class="img-responsive" src="/assets/images/products/rf-plug-phenix.jpg">
-							<h5>Prises télécommandées</h5>
+							<h5>{{site.data.i18n[page.lang].homepage.hardware.powerOutlet.title}}</h5>
 							<p>
-								Gladys gère mes appareils électriques
+								{{site.data.i18n[page.lang].homepage.hardware.powerOutlet.description}}
 							</p>
 						</div>
 					
 						<div class="col-sm-3 text-center feature">
 							<img alt="Feature Image"  class="img-responsive" src="/assets/images/products/philips-hue.jpg">
-							<h5>Ampoules connectées</h5>
+							<h5>{{site.data.i18n[page.lang].homepage.hardware.light.title}}</h5>
 							<p>
-								Gladys contrôle toutes mes lumières, pour un réveil coloré !
+								{{site.data.i18n[page.lang].homepage.hardware.light.description}}
 							</p>
                         </div>
                         
                         <div class="col-sm-3 text-center feature">
 							<img alt="Feature Image"  class="img-responsive" src="/assets/images/products/sonos-play-1.jpg">
-							<h5>Musique</h5>
+							<h5>{{site.data.i18n[page.lang].homepage.hardware.music.title}}</h5>
 							<p>
-								Gladys gère ma musique, pour une journée en douceur 
+								{{site.data.i18n[page.lang].homepage.hardware.music.description}}
 							</p>
 						</div>
                     </div>
@@ -183,7 +163,7 @@ It communicates with all your devices and checks your calendar to help you in yo
     {% if page.lang == 'fr' %}
         <div class="container">
                 <div class="page-header">
-                    <h2 class="text-center">Kit de démarrage</h2>
+                    <h2 class="text-center">{{site.data.i18n[page.lang].homepage.starterKit.title}}</h2>
                 </div>
 
                 {% include starter-pack-panel-large.html %}
