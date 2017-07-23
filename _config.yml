@@ -73,6 +73,8 @@ mailchimp:
 disqus:
     shortname: gladys-project
 
+sumo: d1640d1e25d422b2dececeb749db8ca19998f2a44e94b8b2bceaa9e216c26dad
+
 comments:
   disqus:
     short_name: gladys-project
