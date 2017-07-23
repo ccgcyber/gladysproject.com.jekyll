@@ -4,6 +4,7 @@ date: "2014-03-02 00:00:00"
 title: Récupérer la météo
 description: Pour nous réveiller en douceur, nous prévenir quand nous sortons qu'il va pleuvoir, Gladys doit pouvoir récupérer la météo !
 image: /assets/images/presentation/weatherlow.jpg
+author: Pierre-Gilles Leymarie
 lang: fr
 locale: fr_FR
 categories:

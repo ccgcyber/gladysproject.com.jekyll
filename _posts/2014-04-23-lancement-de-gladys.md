@@ -3,6 +3,7 @@ layout: post
 title: Lancement de Gladys !
 description: La première version de Gladys est disponible ! Téléchargez-la gratuitement et participez au programme développeur!
 image: /assets/images/presentation/Gladysannoucelow.jpg
+author: Pierre-Gilles Leymarie
 lang: fr
 locale: fr_FR
 categories:
