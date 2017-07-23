@@ -1,5 +1,6 @@
 ---
 title: Develop Gladys Module
+description: Learn how to develop a Gladys module with Node.js !
 layout: documentation
 lang: en
 ---

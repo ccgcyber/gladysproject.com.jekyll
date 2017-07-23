@@ -1,5 +1,6 @@
 ---
 title: Configure your house
+description: Learn how to configure your house in Gladys
 layout: documentation
 lang: en
 ---

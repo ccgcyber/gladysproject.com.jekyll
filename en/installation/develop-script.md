@@ -1,5 +1,6 @@
 ---
 title: Develop Gladys Script
+description: Learn how to develop a Gladys script with JavaScript!
 layout: documentation
 lang: en
 ---

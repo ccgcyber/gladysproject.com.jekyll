@@ -1,5 +1,6 @@
 ---
 title: Scenario
+description: Learn how to setup scenarios in Gladys
 layout: documentation
 lang: fr
 ---

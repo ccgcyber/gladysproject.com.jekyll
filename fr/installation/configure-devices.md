@@ -1,5 +1,6 @@
 ---
 title: Configurer les périphériques
+description: Découvrez comment configurer vos périphériques dans Gladys
 layout: documentation
 lang: fr
 image: /assets/images/presentation/facebook_share_gladys.png

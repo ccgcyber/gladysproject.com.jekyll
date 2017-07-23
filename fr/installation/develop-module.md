@@ -1,5 +1,6 @@
 ---
 title: Développer un module Gladys
+description: Apprennez à développer un module Gladys !
 layout: documentation
 lang: fr
 image: /assets/images/presentation/facebook_share_gladys.png

@@ -1,5 +1,6 @@
 ---
 layout: compatibilities
-title: Compatibilitées | Gladys Project
+title: Compatibilitées
+description: Discover all devices compatible with Gladys !
 lang: en
 ---

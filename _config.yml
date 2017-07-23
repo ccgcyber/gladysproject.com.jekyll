@@ -71,12 +71,12 @@ mailchimp:
     key: b_2987d27cbb489c6da217450c2_e20efa438f
 
 disqus:
-    shortname: test2-12
+    shortname: gladys-project
 
 comments:
   disqus:
-    short_name: test2-12
-    api_key: cc0ecLDJ4GjS6s8o13kq8snqcd0x6tfXY6e8in0VcyPi7WvPjqlHY4b58O8npf2d
+    short_name: gladys-project
+    api_key: RYpR6fAgb4bkw4Ia5WvrBCkD5ROwxC4J6v8I5n1Hb1kWrjZNNiRaQ5XJHPASzYib
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

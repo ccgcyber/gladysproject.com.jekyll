@@ -1,5 +1,6 @@
 ---
 title: Développer un script
+description: Comment développer un script Gladys ? Réponse ici !
 layout: documentation
 lang: fr
 image: /assets/images/presentation/facebook_share_gladys.png

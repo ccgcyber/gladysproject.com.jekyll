@@ -1,5 +1,6 @@
 ---
 title: Talking to Gladys
+description: Learn how to speak to Gladys, using text messages, or simply your voice!
 layout: documentation
 lang: en
 ---

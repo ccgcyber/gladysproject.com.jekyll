@@ -1,5 +1,6 @@
 ---
 title: Installation
+description: Learn how to install Gladys on a Raspberry Pi
 layout: documentation
 lang: en
 ---
@@ -24,7 +25,7 @@ If you don't have one, just get started with a [Raspberry Pi starter kit](https:
 
 <div class=" well">
 
-<h4>Join +1500 readers !</h4>
+<h4>Join +1 700 readers !</h4>
 
 Don't hesitate to subscribe to Gladys newsletter, no spam, just news written by me :)
 
