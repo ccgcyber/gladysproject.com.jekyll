@@ -5,8 +5,7 @@ description: Dans cet article, nous verrons en détail comment fonctionne l'anal
 author: Pierre-Gilles Leymarie
 lang: fr
 locale: fr_FR
-img: gladys-3-5-cover.jpg
-altImg: Du machine learning dans Gladys 3.5 !
+image: /assets/images/presentation/gladys-3-5-cover.jpg
 categories:
 - blog
 permalink: /fr/article/gladys-3-5-machine-learning

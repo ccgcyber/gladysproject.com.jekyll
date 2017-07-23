@@ -5,8 +5,7 @@ description: How to control Gladys without using the web app ? In this tutorial,
 author: Pierre-Gilles Leymarie
 lang: en
 locale: en_US
-img: nfc-cover.jpg
-altImg: Gladys & NFC tags
+image: /assets/images/presentation/nfc-cover.jpg
 categories:
 - blog
 permalink: /fr/article/gladys-and-nfc

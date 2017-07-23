@@ -5,8 +5,7 @@ description: Nous allons connecter un capteur de température/humidité à une e
 author: Pierre-Gilles Leymarie
 lang: fr
 locale: fr_FR
-img: temperature-ethernet-cover.jpg
-altImg: Ethernet Temperature Sensor
+image: /assets/images/presentation/temperature-ethernet-cover.jpg
 categories:
 - blog
 permalink: /fr/article/temperature-ethernet

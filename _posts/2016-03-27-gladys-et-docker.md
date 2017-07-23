@@ -5,8 +5,7 @@ description: Nous allons installer ici Gladys en moins de 5 minutes sur un serve
 author: Pierre-Gilles Leymarie
 lang: fr
 locale: fr_FR
-img: docker-cover.jpg
-altImg: Gladys et Docker !
+image: /assets/images/presentation/docker-cover.jpg
 categories:
 - blog
 permalink: /fr/article/gladys-et-docker

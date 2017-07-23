@@ -5,8 +5,7 @@ description: On utilise souvent PhpMyAdmin pour administrer sa base de donnée M
 author: Pierre-Gilles Leymarie
 lang: fr
 locale: fr_FR
-img: express-admin-icone.jpg
-altImg: Express-Admin, le PhpMyAdmin de Node.js !
+image: /assets/images/presentation/express-admin-icone.jpg
 categories:
 - blog
 permalink: /fr/article/equivalent-phpmyadmin-nodejs

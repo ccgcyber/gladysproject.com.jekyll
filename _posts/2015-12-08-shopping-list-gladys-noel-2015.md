@@ -5,8 +5,7 @@ description: J'espère que votre lettre au père Noël est pleine de Raspberry P
 author: Pierre-Gilles Leymarie
 lang: fr
 locale: fr_FR
-img: noel-2015-cover.jpg
-altImg: Joyeux Noël 2015 !
+image: /assets/images/presentation/noel-2015-cover.jpg
 categories:
 - blog
 permalink: /fr/article/shopping-list-gladys-noel-2015

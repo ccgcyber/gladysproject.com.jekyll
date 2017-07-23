@@ -5,8 +5,7 @@ description: Comment déclencher des actions sur Gladys sans forcément être su
 author: Pierre-Gilles Leymarie
 lang: fr
 locale: fr_FR
-img: nfc-cover.jpg
-altImg: Des tags NFC pour contrôler Gladys
+image: /assets/images/presentation/nfc-cover.jpg
 categories:
 - blog
 permalink: /fr/article/gladys-and-nfc

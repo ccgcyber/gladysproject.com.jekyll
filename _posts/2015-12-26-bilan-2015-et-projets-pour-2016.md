@@ -5,8 +5,7 @@ description: L'année 2015 a été une formidable année pour le projet. Quelque
 author: Pierre-Gilles Leymarie
 lang: fr
 locale: fr_FR
-img: bilan-2015-cover.jpg
-altImg: Bilan de l'année 2015
+image: /assets/images/presentation/bilan-2015-cover.jpg
 categories:
 - blog
 permalink: /fr/article/bilan-2015-et-projets-pour-2016

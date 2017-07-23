@@ -5,8 +5,7 @@ description: Pour des interactions électroniques plus poussées, connectons un 
 author: Pierre-Gilles Leymarie
 lang: fr
 locale: fr_FR
-img: arduinounolow.jpg
-altImg: Connecter arduino au Raspberry Pi
+image: /assets/images/presentation/arduinounolow.jpg
 categories:
 - blog
 permalink: /fr/article/connecter-un-arduino-au-raspberry-pi

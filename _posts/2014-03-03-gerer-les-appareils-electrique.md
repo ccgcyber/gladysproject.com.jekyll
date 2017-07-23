@@ -3,7 +3,7 @@ layout: post
 date: "2014-03-03 00:00:00"
 title: Contrôler des prises télécommandées 433Mhz
 description: Gladys doit pouvoir gérer les lumières et les appareils électriques, que nous soyons là, ou que nous soyons absent !
-img: lightbulblow.jpg
+image: /assets/images/presentation/lightbulblow.jpg
 lang: fr
 locale: fr_FR
 categories:

@@ -5,8 +5,7 @@ description: "Un premier tutoriel vidéo publié, Gladys 3.6 sortie riche en nou
 author: Pierre-Gilles Leymarie
 lang: fr
 locale: fr_FR
-img: gladys-3-6-cover-2.jpg
-altImg: Gladys 3.6
+image: /assets/images/presentation/gladys-3-6-cover-2.jpg
 categories:
 - blog
 permalink: /fr/article/bilan-mois-mai-pour-le-projet-gladys

@@ -5,8 +5,7 @@ description: Je travaille depuis pas mal de temps sur cette version 3.0 de Glady
 author: Pierre-Gilles Leymarie
 lang: fr
 locale: fr_FR
-img: notebook-cover.jpg
-altImg: Ce qu'il faut attendre de Gladys 3.0 !
+image: /assets/images/presentation/notebook-cover.jpg
 categories:
 - blog
 permalink: /fr/article/gladys-3-features

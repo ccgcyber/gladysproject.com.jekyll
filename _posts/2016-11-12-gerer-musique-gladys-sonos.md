@@ -5,8 +5,7 @@ description: Gladys dans sa version 3.3 est désormais capable de gérer la musi
 author: Pierre-Gilles Leymarie
 lang: fr
 locale: fr_FR
-img: gladys-sonos-cover.jpg
-altImg: Gérer la musique dans Gladys avec des enceintes Sonos
+image: /assets/images/presentation/gladys-sonos-cover.jpg
 categories:
 - blog
 permalink: /fr/article/gerer-musique-gladys-sonos

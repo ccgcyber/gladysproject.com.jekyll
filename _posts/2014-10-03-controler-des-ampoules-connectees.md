@@ -5,8 +5,7 @@ description: Contrôlez les lumières de votre logement en WIFI, et créez des a
 author: Pierre-Gilles Leymarie
 lang: fr
 locale: fr_FR
-img: milightlow.jpg
-altImg: Contrôler des ampoules connectées
+image: /assets/images/presentation/milightlow.jpg
 categories:
 - blog
 permalink: /fr/article/controler-des-ampoules-connectees

@@ -2,7 +2,7 @@
 layout: post
 title: Utiliser des détecteurs sans-fils
 description: Comment utiliser des détecteurs sans-fils avec votre Raspberry Pi ?
-img: wirelessmotionlow.jpg
+image: /assets/images/presentation/wirelessmotionlow.jpg
 lang: fr
 locale: fr_FR
 categories:

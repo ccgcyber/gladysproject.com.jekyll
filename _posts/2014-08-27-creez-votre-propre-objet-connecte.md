@@ -5,8 +5,7 @@ description: A nous de créer nos propres objets connectés, avec un arduino, qu
 author: Pierre-Gilles Leymarie
 lang: fr
 locale: fr_FR
-img: connectedobjectlow.jpg
-altImg: Créez votre propre objet connecté
+image: /assets/images/presentation/connectedobjectlow.jpg
 categories:
 - blog
 permalink: /fr/article/creez-votre-propre-objet-connecte

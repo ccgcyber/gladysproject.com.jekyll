@@ -5,8 +5,7 @@ description: Les prises Wi-Fi Wemo Insight Switch ont de nombreux atouts, essayo
 author: Pierre-Gilles Leymarie
 lang: fr
 locale: fr_FR
-img: wemo_icone_light.jpg
-altImg: Contrôler les prises Wemo Insight Switch
+image: /assets/images/presentation/wemo_icone_light.jpg
 categories:
 - blog
 permalink: /fr/article/controler-prises-wemo-insight-switch

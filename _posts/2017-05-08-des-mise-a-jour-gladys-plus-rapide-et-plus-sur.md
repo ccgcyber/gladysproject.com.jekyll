@@ -5,8 +5,7 @@ description: Le process de mise à jour Gladys évolue pour être plus rapide et
 author: Pierre-Gilles Leymarie
 lang: fr
 locale: fr_FR
-img: nouveau-process-maj-cover.jpg
-altImg: Des mises à jour Gladys plus rapides et plus stables ! 
+image: /assets/images/presentation/nouveau-process-maj-cover.jpg
 categories:
 - blog
 permalink: /fr/article/des-mise-a-jour-gladys-plus-rapide-et-plus-sur

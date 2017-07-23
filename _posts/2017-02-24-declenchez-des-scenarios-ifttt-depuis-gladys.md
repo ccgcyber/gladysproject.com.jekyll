@@ -5,8 +5,7 @@ description: Dans ce tutoriel nous allons connecter Gladys √† IFTTT, afin d'acc√
 author: Pierre-Gilles Leymarie
 lang: fr
 locale: fr_FR
-img: ifttt-cover.jpg
-altImg: IFTTT et Gladys
+image: /assets/images/presentation/ifttt-cover.jpg
 categories:
 - blog
 permalink: /fr/article/declenchez-des-scenarios-ifttt-depuis-gladys

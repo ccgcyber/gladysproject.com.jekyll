@@ -5,8 +5,7 @@ description: Vous avez toujours rêvé de voir la reconnaissance vocale arriver 
 author: Pierre-Gilles Leymarie
 lang: fr
 locale: fr_FR
-img: gladys-voice-cover.jpg
-altImg: Reconnaissance vocale Raspberry Pi Gladys
+image: /assets/images/presentation/gladys-voice-cover.jpg
 categories:
 - blog
 permalink: /fr/article/voice-recognition-gladys

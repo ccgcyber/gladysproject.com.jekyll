@@ -5,8 +5,7 @@ description: Un an après la première version, Gladys revient dans une toute no
 author: Pierre-Gilles Leymarie
 lang: fr
 locale: fr_FR
-img: gladyscomeback.jpg
-altImg: Gladys revient entièrement réécrite
+image: /assets/images/presentation/gladyscomeback.jpg
 categories:
 - blog
 permalink: /fr/article/gladys-revient-entierement-reecrite
