@@ -17,3 +17,13 @@ Le fonctionnement est expliqué ici : [Comment Gladys 3.5 répond à vos message
 La base de donnéee de phrases est sur GitHub : 
 - [Base de donnée Français](https://github.com/GladysProject/gladys-data/blob/master/sentences/v2/fr.json)
 - [Base de donnée Anglais](https://github.com/GladysProject/gladys-data/blob/master/sentences/v2/en.json)
+
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/s0os3MnI1yg" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<br />
+
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0a9hdEO2Xqw" frameborder="0" allowfullscreen></iframe>
+</div>

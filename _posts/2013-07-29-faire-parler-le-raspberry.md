@@ -3,7 +3,7 @@ layout: post
 date: "2013-07-29 00:00:00"
 title: Faire parler le Raspberry Pi
 description: Nous voila enfin dans le vif du sujet, donnons la voix à notre Rasp !
-img: robotspeakinglow.jpg
+image: /assets/images/presentation/robotspeakinglow.jpg
 author: Pierre-Gilles Leymarie
 lang: fr
 locale: fr_FR

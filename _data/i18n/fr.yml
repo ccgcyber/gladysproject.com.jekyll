@@ -106,6 +106,7 @@ homepage:
     text: Le projet vous plait ? Testez et partagez Gladys !
 
 
+
 #Installation Page
 installation:
   title: Installation
@@ -132,18 +133,10 @@ rss:
 
 #Article Page
 article:
-  home: Accueil
-  blog: Blog
-  lastArticles: Derniers Articles
-  newsletter: Si vous voulez recevoir les derniers articles autour du projet, n'hésitez pas à suivre Gladys :)
-  dontmissarticle: Ne rien manquer de Gladys !
-  comments: Commentaires
-  leaveComment: Laisser un commentaire
-  placeholderPseudo: Votre nom/pseudo
-  placeholderMail: Votre email
-  placeholderComment: Tapez ici votre commentaire
-  robotQuestion: Quelle est la dernière lettre du mot Gladys ?
-  post: Poster
+  joinReader: 
+    title: Rejoignez +1 700 lecteurs ️️!
+    description: N'hésitez pas à vous inscrire à la newsletter Gladys ! Pas de spam, juste des news que j'envoie personnellement 🙂
+
 
 
 #Project Page

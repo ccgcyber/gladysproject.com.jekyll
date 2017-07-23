@@ -117,20 +117,10 @@ blog:
 
 
 
-#Article Page
 article:
-  home: Home
-  blog: Blog
-  lastArticles: Last articles
-  newsletter: "Don't hesitate to follow Gladys to receive updates :"
-  dontmissarticle: Keep me up to date !
-  comments: Comments
-  leaveComment: Leave a comment
-  placeholderPseudo: Your name
-  placeholderMail: Your Email
-  placeholderComment: Write here your comment
-  robotQuestion: What's the last letter of the word "Gladys" ?
-  post: Post
+  joinReader: 
+    title: Join +1 700 readers ️️!
+    description: Don't hesitate to subscribe to Gladys newsletter, no spam, just news written by me 🙂
 
 
 #Project Page
