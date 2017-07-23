@@ -1,3 +1,6 @@
 _site
 .sass-cache
 .jekyll-metadata
+node_modules
+production.css
+production.min.css

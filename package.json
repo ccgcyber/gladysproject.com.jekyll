@@ -1,0 +1,14 @@
+{
+  "name": "site-jekyll",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Pierre-Gilles Leymarie",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "imagemin-jpeg-recompress": "^5.1.0"
+  }
+}
