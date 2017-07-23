@@ -12,7 +12,7 @@ layout: default
                             <h1>Gladys, your home assistant</h1>
                             <h4>Gladys is an open-source program which runs on your Raspberry Pi. <br />
 It communicates with all your devices and checks your calendar to help you in your everyday life.</h4>
-                            <a href="#download" class="btn btn-outline btn-xl page-scroll">Start Now for Free!</a>
+                            <a href="/{{ page.lang }}/installation" class="btn btn-outline btn-xl page-scroll">Start Now for Free!</a>
                         </div>
                     </div>
                 </div>
@@ -138,32 +138,59 @@ It communicates with all your devices and checks your calendar to help you in yo
 
 <!-- TIMELINE -->
 
-    <section id="features" class="features-section">
-        <div class="container">
-           <div class="row">
-                <div class="col-md-4">
-                    <div class="feature-item text-center">
-                        <i class="icon-screen-smartphone text-primary"></i>
-                        <h3>Open-Source</h3>
-                        <p class="text-muted">Gladys is 100% available on GitHub, pull-requests are welcomed!</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-item text-center">
-                        <i class="icon-camera text-primary"></i>
-                        <h3>Powerful</h3>
-                        <p class="text-muted">Powered by Node.js, Gladys is blazzing fast 🚀</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-item text-center">
-                        <i class="icon-camera text-primary"></i>
-                        <h3>Privacy</h3>
-                        <p class="text-muted">Gladys is hosted on your Raspberry Pi, nothing leave your house.</p>
-                    </div>
-                </div>
+    <div class="container">
+            <div class="page-header">
+                <h2 class="text-center">Matériel compatible</h2>
             </div>
+				
+					<div class="row">
+						<div class="col-sm-3 text-center feature">
+							<img alt="Feature Image" class="img-responsive" src="/assets/images/products/raspberry-pi.jpg">
+							<h5>Raspberry Pi</h5>
+							<p>
+								Gladys tourne sur Raspberry Pi, c'est la base du système.
+							</p>
+						</div>
+					
+						<div class="col-sm-3 text-center feature">
+							<img alt="Feature Image"  class="img-responsive" src="/assets/images/products/rf-plug-phenix.jpg">
+							<h5>Prises télécommandées</h5>
+							<p>
+								Gladys gère mes appareils électriques
+							</p>
+						</div>
+					
+						<div class="col-sm-3 text-center feature">
+							<img alt="Feature Image"  class="img-responsive" src="/assets/images/products/philips-hue.jpg">
+							<h5>Ampoules connectées</h5>
+							<p>
+								Gladys contrôle toutes mes lumières, pour un réveil coloré !
+							</p>
+                        </div>
+                        
+                        <div class="col-sm-3 text-center feature">
+							<img alt="Feature Image"  class="img-responsive" src="/assets/images/products/sonos-play-1.jpg">
+							<h5>Musique</h5>
+							<p>
+								Gladys gère ma musique, pour une journée en douceur 
+							</p>
+						</div>
+                    </div>
+                    
+
+    </div>
+
+    {% if page.lang == 'fr' %}
+        <div class="container">
+                <div class="page-header">
+                    <h2 class="text-center">Kit de démarrage</h2>
+                </div>
+
+                {% include starter-pack-panel-large.html %}
+
         </div>
-    </section>
+
+    {% endif %}
+
 
 </div>
