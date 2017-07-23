@@ -5,9 +5,9 @@
 
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
   
-  {% if jekyll.environment == 'production' and site.google_analytics %}
-    {% include google-analytics.html %}
-  {% endif %}
+    {% if jekyll.environment == 'production' and site.google_analytics %}
+      {% include google-analytics.html %}
+    {% endif %}
 
 
     {% if page.url == '/fr/' or page.url == '/en/' %}
@@ -23,9 +23,7 @@
     <link href="/assets/css/bootstrap3.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Catamaran:100,200,300,400,500,600,700,800,900|Muli" rel="stylesheet">
 
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
