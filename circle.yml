@@ -31,4 +31,4 @@ deployment:
       - docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
       - docker build -t gladysproject/website .
       - docker push gladysproject/website
-      - ssh deploy@$SERVER_IP '/home/deploy/restart.sh'
+      - ssh -q deploy@$SERVER_IP '/home/deploy/restart.sh'
