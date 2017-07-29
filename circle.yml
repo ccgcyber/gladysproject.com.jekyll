@@ -1,0 +1,23 @@
+machine:
+  node:
+    version: 6.11.1
+  ruby:
+    version: 2.3.1
+  
+dependencies:
+  pre:
+    - gem install bundler
+
+checkout:
+  post:
+    - bundle install
+
+test:
+  override:
+    - echo "No tests"
+
+build:
+  override:
+    - rake disquscomments
+    - bundle exec jekyll build
+    - ls
