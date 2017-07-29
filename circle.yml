@@ -22,5 +22,5 @@ deployment:
     commands: 
       - mkdir _comments
       - rake disquscomments
-      - bundle exec jekyll build
+      - JEKYLL_ENV=production bundle exec jekyll build
       - ls
