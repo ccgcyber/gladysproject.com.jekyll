@@ -9,12 +9,12 @@ machine:
 dependencies:
   pre:
     - gem install bundler
-    - npm install gulp -g
 
 checkout:
   post:
     - bundle install
     - yarn install
+    - npm install -g gulp 
     - gulp build
 
 test:
