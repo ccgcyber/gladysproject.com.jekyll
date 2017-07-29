@@ -23,4 +23,6 @@ deployment:
       - mkdir _comments
       - rake disquscomments
       - JEKYLL_ENV=production bundle exec jekyll build
-      - ls
+      - docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
+      - docker build -t gladysproject/website .
+      - docker push gladysproject/website
