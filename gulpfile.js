@@ -5,7 +5,7 @@ var cleanCSS = require('gulp-clean-css');
 var rename = require('gulp-rename');
 var imageminJpegRecompress = require('imagemin-jpeg-recompress');
 
-gulp.task('build', ['uglify-js', 'minify-css'], function() {
+gulp.task('build', ['minify-css'], function() {
     console.log('DONE !');
 });
 
@@ -28,7 +28,7 @@ gulp.task('uglify-js', ['concat-scripts'] , function() {
         .pipe(gulp.dest('./web/assets/js/production/'));
 });
 
-gulp.task('minify-css', () => {
+gulp.task('minify-css', ['concat-css'], () => {
   return gulp.src('./assets/css/production.css')
     .pipe(cleanCSS())
     .pipe(rename('production.min.css'))
