@@ -16,8 +16,10 @@ test:
   override:
     - echo "No tests"
 
-build:
-  override:
-    - rake disquscomments
-    - bundle exec jekyll build
-    - ls
+deployment:
+  production:
+    branch: master
+    commands: 
+      - rake disquscomments
+      - bundle exec jekyll build
+      - ls
