@@ -4,6 +4,7 @@ description: Découvrez comment discuter avec Gladys, que ce soit par message ou
 layout: documentation
 lang: fr
 image: /assets/images/presentation/facebook_share_gladys.png
+permalink: /fr/installation/talking-to-gladys/
 ---
 
 # Parler avec Gladys

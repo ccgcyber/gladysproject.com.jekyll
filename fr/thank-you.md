@@ -4,6 +4,7 @@ description: Merci de soutenir le projet Gladys !
 layout: container-margin
 lang: fr
 image: /assets/images/presentation/facebook_share_gladys.png
+permalink: /fr/thank-you/
 ---
 
 # Merci !

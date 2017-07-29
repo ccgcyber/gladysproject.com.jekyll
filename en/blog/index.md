@@ -6,4 +6,5 @@ lang: en
 pagination: 
   enabled: true
   locale: en_US
+permalink: /en/blog/
 ---

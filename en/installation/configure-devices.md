@@ -3,6 +3,7 @@ title: Configure your devices
 description: Learn how to configure your devices with Gladys
 layout: documentation
 lang: en
+permalink: /en/installation/configure-devices/
 ---
 
 # Configure your devices in Gladys

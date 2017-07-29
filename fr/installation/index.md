@@ -5,6 +5,7 @@ layout: documentation
 lang: fr
 identifier: /fr/installation
 image: /assets/images/presentation/facebook_share_gladys.png
+permalink: /fr/installation/
 ---
 
 # Installer Gladys sur un Raspberry Pi

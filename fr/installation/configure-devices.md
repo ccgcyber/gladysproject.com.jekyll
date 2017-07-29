@@ -4,6 +4,7 @@ description: Découvrez comment configurer vos périphériques dans Gladys
 layout: documentation
 lang: fr
 image: /assets/images/presentation/facebook_share_gladys.png
+permalink: /fr/installation/configure-devices/
 ---
 
 # Ajouter des périphériques dans Gladys

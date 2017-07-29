@@ -3,6 +3,7 @@ title: Installation
 description: Learn how to install Gladys on a Raspberry Pi
 layout: documentation
 lang: en
+permalink: /en/installation/
 ---
 
 # Installing Gladys on a Raspberry Pi

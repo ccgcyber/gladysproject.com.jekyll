@@ -3,6 +3,7 @@ title: Configure your house
 description: Learn how to configure your house in Gladys
 layout: documentation
 lang: en
+permalink: /en/installation/configure-house/
 ---
 
 # Configure your house in Gladys

@@ -3,6 +3,7 @@ title: Scenarios in Gladys
 description: Learn how to setup scenarios in Gladys
 layout: documentation
 lang: fr
+permalink: /en/installation/scenario/
 ---
 
 # Scenarios in Gladys

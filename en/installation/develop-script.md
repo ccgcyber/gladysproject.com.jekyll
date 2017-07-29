@@ -3,6 +3,7 @@ title: How to write a Gladys Script
 description: Learn how to develop a Gladys script with JavaScript!
 layout: documentation
 lang: en
+permalink: /en/installation/develop-script/
 ---
 
 # How to write a Gladys Script

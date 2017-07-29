@@ -3,6 +3,7 @@ title: Gladys REST API
 description: The documentation of Gladys REST API
 layout: documentation
 lang: en
+permalink: /en/installation/rest-api/
 ---
 
 # Gladys REST API

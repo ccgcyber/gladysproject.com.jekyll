@@ -4,6 +4,7 @@ description: Comment mettre en place des scénarios poussés dans Gladys ?
 layout: documentation
 lang: fr
 image: /assets/images/presentation/facebook_share_gladys.png
+permalink: /fr/installation/scenario/
 ---
 
 # Les scénarios dans Gladys

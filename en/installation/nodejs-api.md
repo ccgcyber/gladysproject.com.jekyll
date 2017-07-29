@@ -3,6 +3,7 @@ title: Gladys Node.js API
 description: The documentation of Gladys Node.js API
 layout: documentation
 lang: en
+permalink: /en/installation/nodejs-api/
 ---
 
 # Gladys Node.js API
