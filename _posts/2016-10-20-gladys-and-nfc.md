@@ -8,7 +8,7 @@ locale: en_US
 image: /assets/images/presentation/nfc-cover.jpg
 categories:
 - blog
-permalink: /fr/article/gladys-and-nfc
+permalink: /en/article/gladys-and-nfc
 ---
 
 <div class="alert alert-info" role="alert" style="padding: 10px;">This article works fully with Gladys v3 !</div>
