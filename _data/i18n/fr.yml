@@ -76,17 +76,17 @@ homepage:
       text: Il est 8h, Gladys me réveille car elle sait qu'à 9H je dois aller travailler, et que je mets, selon mes préférences, 30 minutes pour me préparer, et que selon l'état actuel du trafic, je vais mettre 30 minutes en voiture pour aller au bureau. Elle a vu grâce à une API de météo qu'il pleut dehors, et en profite pour me le signaler au réveil.
     scenario:
       title: Des scénarios intelligents
-      text: Il est 8h45, je sors de chez moi pour aller travailler, Gladys détecte que je ne suis plus là, elle coupe lumière et la musique. Cependant, après le boulot, je sors chez des amis, et reste dormir chez eux. Gladys sait que je ne suis pas rentré (pas de mouvement n'a été détecté), et désactive donc le réveil du lendemain, car pas besoin de sonner si je ne dors pas chez moi, et que mon appartement est vide.
+      text: Il est 8h45, je sors de chez moi pour aller travailler, Gladys détecte que je ne suis plus là, elle coupe lumière et la musique. Cependant, après le boulot, je sors chez des amis, et reste dormir chez eux. Gladys sait que je ne suis pas rentré (aucun mouvement n'a été détecté), et désactive donc le réveil du lendemain, car pas besoin de sonner si je ne dors pas chez moi, et que mon appartement est vide.
     sleep:
       title: Toujours là pour vous
-      text: Il est 19h, je rentres du bureau, Gladys allume la lumière, me souhaite la bienvenue, et me notifie les messages que j'ai reçu en mon absence.
+      text: Il est 19h, je rentre du bureau, Gladys allume la lumière, me souhaite la bienvenue, et me notifie les messages que j'ai reçus en mon absence.
 
   hardware:
     title: Exemple de compatibilités
     raspberryPi:
       title: Raspberry Pi
       description: Gladys tourne sur Raspberry Pi, c'est la base du système
-    powerOutlet: 
+    powerOutlet:
       title: Prises télécommandées
       description: Gladys gère vos appareils électriques, même votre machine à café !
     light:
@@ -95,10 +95,10 @@ homepage:
     music:
       title: Musique
       description: "\"Gladys, mets de la musique dans le salon !\""
-  
-  starterKit: 
+
+  starterKit:
     title: Le pack de démarrage
- 
+
   aFewVideos: Quelques vidéos
 
   installGladys:
@@ -120,7 +120,7 @@ blog:
     title: Blog | Gladys Project
     description: Le blog du projet Gladys. Retrouvez ici des news, tutoriels à propos du projet.
   title: Blog
-  noArticles: Aucuns articles disponibles en français !
+  noArticles: Aucun article disponible en français !
   readmore: Lire la suite
 
 rss:
@@ -133,7 +133,7 @@ rss:
 
 #Article Page
 article:
-  joinReader: 
+  joinReader:
     title: Rejoignez +1 700 lecteurs ️️!
     description: N'hésitez pas à vous inscrire à la newsletter Gladys ! Pas de spam, juste des news que j'envoie personnellement 🙂
 
@@ -155,7 +155,7 @@ press:
 #Contact page
 contact:
   title: Contact | Gladys Project
-  description: Contactez moi si vous avez des questions sur le projet, je vous répondrais avec plaisir.
+  description: Contactez moi si vous avez des questions sur le projet, je vous répondrai avec plaisir.
   sentence: Si vous avez des questions/remarques, que vous voulez en savoir plus sur le projet, que vous voulez aider, proposer des idées, des solutions... Ce formulaire est fait pour vous !
   name: Nom
   namePlaceholder: Entrez votre nom
@@ -179,22 +179,22 @@ api:
     invalidMail: L'email que vous avez saisi n'est pas valide !
     otherError: Une erreur est survenue lors du post de votre commentaire.
     youAreARobot: Nous n'avons pas pu vous vérifier en tant qu'humain, vous êtes peut être un robot...
-    success: Votre commentaire a été posté avec succès ! Je le validerais dès que possible :)
+    success: Votre commentaire a été posté avec succès ! Je le validerai dès que possible :)
 
   contact:
     empty: Vous n'avez pas rempli certains champs.
     invalidMail: L'email que vous avez saisi n'est pas valide !
-    success: Votre message a été envoyé avec succès ! J'y répondrais dès que possible.
+    success: Votre message a été envoyé avec succès ! J'y répondrai dès que possible.
 
 
 errors:
-  goToHomePage: Retourner à la page d'accueil 
+  goToHomePage: Retourner à la page d'accueil
   homepage: Page d'accueil
   404:
     title: Erreur 404
     message: La page que vous recherchez n'existe pas.
   500:
     title: Erreur 500
-    message: Un erreur est intervenue lors du traitement de votre requête.
+    message: Une erreur est intervenue lors du traitement de votre requête.
 
 

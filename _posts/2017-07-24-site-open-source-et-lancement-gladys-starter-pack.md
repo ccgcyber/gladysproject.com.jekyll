@@ -24,16 +24,16 @@ La première news de cet article, c'est le lancement du tant attendu [Gladys Sta
 
 C'est vrai que jusque là, malgré les explications, le forum, les scripts d'installation, les exemples sur les pages modules, il y avait un manque pour beaucoup d'un chemin "clair" à suivre pour mettre en place Gladys chez soit. Surtout quand on n'a pas forcément le temps d'aller fouiner, le temps d'aller mettre les briques les unes sur les autres. Une documentation écrite ne suffisait pas, il fallait pour ce besoin quelque chose de beaucoup plus guidé : des tutoriels vidéos.
 
-Alors j'ai fais un sondage en début d'année pour savoir ce que vous en pensiez. Le résultat à la question "Es-tu intéressé par des tutoriels vidéos?" est sans appel :
+Alors j'ai fait un sondage en début d'année pour savoir ce que vous en pensiez. Le résultat à la question "Es-tu intéressé par des tutoriels vidéos?" est sans appel :
 
 <img src="/assets/images/articles/site-open-source-et-lancement-gladys-starter-pack/sondage.png" alt="Résultat sondage tutoriels vidéos" class="img-responsive" />
 
-Une question que certains m'ont posés a été: Pourquoi rendre ce pack payant ?
+Une question que certains m'ont posée a été : Pourquoi rendre ce pack payant ?
 
 La réponse est assez simple. Dans tout projet, open-source ou pas, il y a des dépenses. Ici pour Gladys, voilà les différentes dépenses :
-- Hébergement (Site, forum, plateforme développeur, nom de domaines, service d'emails, backups cloud, etc...)
+- Hébergement (Site, forum, plateforme développeur, noms de domaines, service d'emails, backups cloud, etc...)
 - Matériel domotique 
-- Evénement physique type Maker Faire Paris, talk (déplacement, matériel, affiches, flyer)
+- Evénements physiques type Maker Faire Paris, talk (déplacement, matériel, affiches, flyer)
 - Matériel vidéo (trépied, appareil, micro)
 - etc.. 
 
@@ -43,17 +43,17 @@ Rassurez vous, **Gladys est une vraie passion pour moi**, et depuis 4 ans j'ai a
 
 Mais sur le long terme, plus il y a d'utilisateurs, et plus ces coûts augmentent. Et c'est souvent là que dans tout projet, ça passe ou ça casse. Ici, je vous rassure, ça va passer ! 💪 Mais ça passera grâce à vous !
 
-Il y avait la solution du don, mais je n'aime pas vraiment cette solution. Je n'aime pas demander de l'argent "comme ça", je préfère qu'une vraie plus value soit apporté à l'utilisateur. J'ai donc conçu un pack solide et travaillé qui explique pas à pas la configuration de Gladys en vidéo + ebook. Honnêtement, vu le temps passé dessus et le contenu, je pense qu'il vaut son prix.
+Il y avait la solution du don, mais je n'aime pas vraiment cette solution. Je n'aime pas demander de l'argent "comme ça", je préfère qu'une vraie plus value soit apportée à l'utilisateur. J'ai donc conçu un pack solide et travaillé qui explique pas à pas la configuration de Gladys en vidéo + ebook. Honnêtement, vu le temps passé dessus et le contenu, je pense qu'il vaut son prix.
 
 Et depuis dimanche dernier, ce pack est maintenant en ligne, et disponible en pré-commandes! 🚀
 
-J'aimerais en tout cas dire un grand MERCI à ceux qui ont déjà pré-commandé le pack 🙌 Vraiment, ça me touche beaucoup :) Je ferais sûrement un petit mail pour ceux qui l'ont pré-commandé pour vous remercier personnellement, je suis vraiment heureux d'avoir une commmauté comme ça ! 
+J'aimerais en tout cas dire un grand MERCI à ceux qui ont déjà pré-commandé le pack 🙌 Vraiment, ça me touche beaucoup :) Je ferai sûrement un petit mail pour ceux qui l'ont pré-commandé pour vous remercier personnellement, je suis vraiment heureux d'avoir une commmauté comme ça ! 
 
 Pour ceux qui aimeraient découvrir ce pack, et contribuer au projet, les pré-commandes sont toujours ouvertes, et le pack est disponible au prix de 39€ => [Précommandes Gladys Starter Pack](/fr/gladys-starter-pack/)!
 
 Après les pré-commandes, le pack passera à son prix final de 49€ !
 
-Pour vous donner un état d'avancement du pack, **toutes les vidéos sont prêtes** (filmée + montée), il me reste juste du fignolage sur l'ebook. C'est donc en très bonne voie, et tout arrivera en fin d'été, début Septembre au maximum.
+Pour vous donner un état d'avancement du pack, **toutes les vidéos sont prêtes** (filmées + montées), il me reste juste du fignolage sur l'ebook. C'est donc en très bonne voie, et tout arrivera en fin d'été, début Septembre au maximum.
 
 <img src="/assets/images/articles/site-open-source-et-lancement-gladys-starter-pack/starter-pack.png" alt="Gladys starter pack" class="img-responsive" />
 
@@ -61,7 +61,7 @@ Pour vous donner un état d'avancement du pack, **toutes les vidéos sont prête
 
 La deuxième nouvelle de cet article, c'est la refonte **totale** du site Gladys ! Comme vous avez pu le voir, le nouveau site Gladys est tout beau tout neuf 👌 J'avais deux objectifs en le refaisant: 
 
-- Le rentre open-source, et donc **éditable par tous**
+- Le rendre open-source, et donc **éditable par tous**
 - Le rendre statique pour des performances maximales
 - Avoir une vraie page d'installation plus documentée
 
@@ -69,17 +69,17 @@ Petit tour du propriétaire niveau techno !
 
 ### Un site 100% statique avec Jekyll
 
-Le constat assez simple que j'ai fais au niveau du site Gladys, c'est qu'en vérité quasiment tout était statique sur le site. Les articles et les commentaires étaient stockés dans une base MySQL, les pages composées avec PHP et le micro-framework Silex, et tout ça hébergé sur un mutualisé en Irelande. Mais depuis un an, afin d'améliorer les performances, j'avais mis un CDN (CloudFlare) devant, qui mettait en cache le site complet pendant 24h. En gros, le mutualisé ne recevait qu'une requête par 24h et par ressource (soit quasiment rien). On était donc déjà sur du quasi statique.
+Le constat assez simple que j'ai fait au niveau du site Gladys, c'est qu'en vérité quasiment tout était statique sur le site. Les articles et les commentaires étaient stockés dans une base MySQL, les pages composées avec PHP et le micro-framework Silex, et tout ça hébergé sur un mutualisé en Irelande. Mais depuis un an, afin d'améliorer les performances, j'avais mis un CDN (CloudFlare) devant, qui mettait en cache le site complet pendant 24h. En gros, le mutualisé ne recevait qu'une requête par 24h et par ressource (soit quasiment rien). On était donc déjà sur du quasi statique.
 
-Mais je voyais quand même des problèmes: 
+Mais je voyais quand même des problèmes : 
 - J'étais le seul à pouvoir éditer le site, les articles, la documentation
 - Le site n'était pas vraiment versionné (le site était sur Git, mais les articles dans la base de donnée et pas vraiment versionné)
 
 Je suis donc passé à [Jekyll](https://jekyllrb.com/), un générateur de site statique.
 
-Le principe est simple: j'écris des articles en Markdown, et au moment de publier le site, Jekyll build les articles et chaque page pour créer l'ensemble des pages HTML du site, qui ensuite peuvent être hébergée sur n'importe quelle plateforme d'hébergement statique (GitHub Pages, Amazon S3, etc...).
+Le principe est simple: j'écris des articles en Markdown, et au moment de publier le site, Jekyll build les articles et chaque page pour créer l'ensemble des pages HTML du site, qui ensuite peuvent être hébergées sur n'importe quelle plateforme d'hébergement statique (GitHub Pages, Amazon S3, etc...).
 
-Il y a cependant 2 choses qui étaient dynamique sur l'ancien site: Les commentaires, et le formulaire de contact. Rassurez-vous, je n'ai rien perdu! 
+Il y a cependant 2 choses qui étaient dynamiques sur l'ancien site : Les commentaires, et le formulaire de contact. Rassurez-vous, je n'ai rien perdu! 
 
 #### Les commentaires avec Disqus
 
@@ -97,11 +97,11 @@ Le formulaire de contact était tout bête: Lorsqu'un utilisateur le validait, u
 
 Mais là, sans serveur, ça devenait compliqué :D Et installer un back-end uniquement pour un pauvre formulaire de contact, je trouvais ça un peu lourd (et on perdait l'avantage du statique).
 
-Je suis donc passé par Amazon Lambda. Concrètement, Amazon permet d'enregistrer des fonctions JS/Python/Java, qui peuvent être appelée via une API REST toute simple. Et le gros avantage, c'est le prix:
+Je suis donc passé par Amazon Lambda. Concrètement, Amazon permet d'enregistrer des fonctions JS/Python/Java, qui peuvent être appelées via une API REST toute simple. Et le gros avantage, c'est le prix:
 
 > L'offre gratuite Lambda comprend un million de requêtes offertes ainsi que 400 000 Go-secondes de temps de calcul par mois.
 
-Parfait pour mon petit formulaire de contact! J'ai donc fais une petite fonction JS en 10 lignes qui m'envoie un mail dès que le formulaire est validé. Sachant que je reçois moins d'un million de messages par mois, je ne paierais probablement jamais pour l'appel de cette petite fonction.
+Parfait pour mon petit formulaire de contact! J'ai donc fait une petite fonction JS en 10 lignes qui m'envoie un mail dès que le formulaire est validé. Sachant que je reçois moins d'un million de messages par mois, je ne paierai probablement jamais pour l'appel de cette petite fonction.
 
 Mission accomplie ! ✅
 
@@ -111,7 +111,7 @@ Comme je disais, le gros enjeux de ce nouveau site était de le rendre éditable
 
 Le site est donc disponible sur Github => [https://github.com/GladysProject/gladysproject.com.jekyll](https://github.com/GladysProject/gladysproject.com.jekyll)
 
-N'hésitez pas à créer des issues en cas d'erreurs, à proposer des pull-requests si vous avez des idées, si vous voulez enrichir la documentation: C'est open bar, et c'est fais pour !
+N'hésitez pas à créer des issues en cas d'erreurs, à proposer des pull-requests si vous avez des idées, si vous voulez enrichir la documentation: C'est open bar, et c'est fait pour !
 
 Petite remarque: Bien que GitHub supporte Jekyll (et est donc capable de builder le site automatiquement), je ne passe pas par GitHub pour le build. La raison est simple, GitHub ne supporte qu'une liste restreinte de plugins Jekyll (pour des raisons de sécurité évidentes, ils ne vont pas exécuter n'importe quel code de leur côté). Hors, pour un site comme celui de Gladys (multi-langues, avec deux blogs en deux langues, avec des commentaires Disqus statique), je n'ai pas trouvé mon bonheur niveau plugin dans leur catalogue.
 
@@ -129,7 +129,7 @@ C'est déjà bien pour l'été, sachant que je serais 2 semaines en vacances cet
 
 Et à la rentrée, je reviens les batteries chargées à bloc pour plein de nouveaux projets sur Gladys!
 
-J'ai notamment de bels idées pour améliorer la partie scénario dans Gladys (#teasing), et pour enrichir toute la partie discussion avec Gladys. Et bien sûr, de nombreuses intégrations sont prévues! (Qui a dit Lifx? Fitbit ? RFXCom ? Milight new gen?) 
+J'ai notamment de belles idées pour améliorer la partie scénario dans Gladys (#teasing), et pour enrichir toute la partie discussion avec Gladys. Et bien sûr, de nombreuses intégrations sont prévues! (Qui a dit Lifx? Fitbit ? RFXCom ? Milight new gen?) 
 
 ## Conclusion
 

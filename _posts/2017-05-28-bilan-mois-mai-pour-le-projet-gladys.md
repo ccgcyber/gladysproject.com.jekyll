@@ -64,17 +64,17 @@ Et j'en ai profité pour implémenter un premier module de calcul de temps d'iti
 
 ### L'Auto Wake Up
 
-C'était une feature très très attendue en "automatique", elle était possible depuis longtemps sous forme de script, mais je l'ai maintenant rendu accessible à tous directement dans Gladys.
+C'était une feature très très attendue en "automatique", elle était possible depuis longtemps sous forme de script, mais je l'ai maintenant rendue accessible à tous directement dans Gladys.
 
 Le principe? Gladys peut désormais vous réveiller automatiquement **au bon moment** super simplement en fonction de votre calendrier et du trafic sur la route pour aller à votre premier rendez-vous. Le fonctionnement derrière est assez simple d'apparence mais est le résultat de tout le travail que nous avons accompli dans Gladys jusque-là. Chaque brique apportée dans les derniers mois à été utilisée.
 
 Voilà comment fonctionne la feature:
 
 *   A Minuit, Gladys récupère le premier événement de la journée sur votre calendrier (si vous avez synchronisé votre calendrier Google par exemple)
-*   Gladys récupère votre position (si vous avez configuré la géolocalisation via votre smartphone par exemple, ou créé un script qui créé une location quand vous rentrez à la maison)
+*   Gladys récupère votre position (si vous avez configuré la géolocalisation via votre smartphone par exemple, ou créé un script qui crée une location quand vous rentrez à la maison)
 *   Grâce à l'événement (contenant l'adresse de l'événement) + votre position, Gladys calcule le temps de transport. Ce temps de transport est "théorique" à ce stade là de la nuit, car à minuit le trafic est très réduit.
-*   Gladys connait vos préférences, vous avez renseignés dans les paramètres que vous avez besoin de 30 minutes de préparation le matin.
-*   Gladys peut donc calculer une heure de réveil "théorique", en faisant tout simplement heure du RDV - temps de transport - temps de préparation. Cela donne **une ordre d'idée** à Gladys de votre heure de lever.
+*   Gladys connait vos préférences, vous avez renseigné dans les paramètres que vous avez besoin de 30 minutes de préparation le matin.
+*   Gladys peut donc calculer une heure de réveil "théorique", en faisant tout simplement heure du RDV - temps de transport - temps de préparation. Cela donne **un ordre d'idée** à Gladys de votre heure de lever.
 *   Ensuite, si le réveil est prévu dans plus de 2 heures (ce qui est souvent le cas à minuit si vous travaillez à 8h), Gladys re-programme un nouveau calcul dans 2 heures
 *   Si le réveil est prévu dans plus d'une heure et moins de 2 heures, Gladys recalculera dans 1 heure le trafic
 *   Enfin, si le réveil est prévu dans moins d'une heure, Gladys va calculer toutes les 10 minutes le trafic, **afin de pouvoir réagir à une brusque augmentation des bouchons sur la route**.
@@ -86,7 +86,7 @@ Le calcul est effectué avec une marge de 10 minutes, ainsi vous ne pouvez pas �
 
 Bonne question, pour l'instant le moyen de transport est la voiture par défaut, mais les différentes options sont déjà prêtes, je voulais juste vous demander ce que vous trouviez le plus simple pour définir votre moyen de transport pour aller à un événement.
 
-En gros, la contrainte est qu'il faut enregistrer cette donnée dans l'événement, car pour moi on ne va pas forcément tous les jours à chaque événement avec le même type de transport. Hors dans pas mal de système de calendriers, il n'y a pas forcément de case "moyen de transport". J'ai pensé à une solution, pas forcément la plus propre mais je pense la plus universelle et la plus facile à mettre en place chez vous, c'est de rajouter dans vos événements directement dans le titre un code qui corresponde à votre moyen de transport.
+En gros, la contrainte est qu'il faut enregistrer cette donnée dans l'événement, car pour moi on ne va pas forcément tous les jours à chaque événement avec le même type de transport. Hors dans pas mal de systèmes de calendriers, il n'y a pas forcément de case "moyen de transport". J'ai pensé à une solution, pas forcément la plus propre mais je pense la plus universelle et la plus facile à mettre en place chez vous, c'est de rajouter dans vos événements directement dans le titre un code qui corresponde à votre moyen de transport.
 
 *   "#transit" => Transport en commun
 *   "#car" => Voiture
@@ -102,13 +102,13 @@ Comme toujours, pour installer cette mise à jour, vous n'avez qu'à lancer le s
 
 ## Des packs vidéos + ebooks pour débutants
 
-J'ai fais un sondage ce mois-ci afin de voir si vous étiez intéressé par des packs de tutoriels vidéos, voir d'un ebook autour de Gladys disponible en supplément de ce qui existe en échange d'une participation financière. Le sondage est toujours disponible [ici](https://goo.gl/forms/EdeqXhrxJWYxj7Cf1) si vous voulez lire/relire le long message que j'avais mis dedans, ou même donner votre avis :)
+J'ai fait un sondage ce mois-ci afin de voir si vous étiez intéressés par des packs de tutoriels vidéos, voir d'un ebook autour de Gladys disponible en supplément de ce qui existe en échange d'une participation financière. Le sondage est toujours disponible [ici](https://goo.gl/forms/EdeqXhrxJWYxj7Cf1) si vous voulez lire/relire le long message que j'avais mis dedans, ou même donner votre avis :)
 
-A l'issue de ce sondage, la réponse est claire: Vous êtes tous très intéressé par des vidéos sur Gladys ( + 90% des réponses ), et une très grande majorité trouve ça normale de rémunérer le travail que ça représente derrière. J'ai reçu beaucoup de messages d'encouragements dans le formulaire, merci encore à tous ça fait chaud au coeur :)
+A l'issue de ce sondage, la réponse est claire: Vous êtes tous très intéressés par des vidéos sur Gladys ( + 90% des réponses ), et une très grande majorité trouve ça normale de rémunérer le travail que ça représente derrière. J'ai reçu beaucoup de messages d'encouragements dans le formulaire, merci encore à tous ça fait chaud au coeur :)
 
-J'aimerais juste revenir sur le fait que ces packs soient payant: L'objectif n'est pas de restreindre l'accès à la documentation Gladys. Le projet est open-source, absolument tout est ouvert, et tout restera ouvert! Je pense juste que beaucoup aimeraient commencer dans Gladys, mais par manque de temps où de motivations, n'ont pas le temps de faire des recherches, d'apprendre à se servir de Linux, de comprendre Node.js, de comprendre les protocoles domotiques, etc... L'objectif pour moi ici est de fournir un ou plusieurs packs "clé en main", où le travail de recherche, de synthétisation de l'information, de mise en forme est fait de mon côté. L'objectif n'est pas limiter l'accès à la documentation, bien au contraire.
+J'aimerais juste revenir sur le fait que ces packs soient payant: L'objectif n'est pas de restreindre l'accès à la documentation Gladys. Le projet est open-source, absolument tout est ouvert, et tout restera ouvert! Je pense juste que beaucoup aimeraient commencer dans Gladys, mais par manque de temps où de motivations, n'ont pas le temps de faire des recherches, d'apprendre à se servir de Linux, de comprendre Node.js, de comprendre les protocoles domotiques, etc... L'objectif pour moi ici est de fournir un ou plusieurs packs "clé en main", où le travail de recherche, de synthétisation de l'information, de mise en forme est fait de mon côté. L'objectif n'est pas de limiter l'accès à la documentation, bien au contraire.
 
-Bien entendu, toute la documentation est et restera open-source, je continue toujours d'écrire des articles, je répond toujours sur le forum, et les vidéos "de base" seront probablement gratuites elles aussi :) Rien ne change de ce côté là, pas de panique!
+Bien entendu, toute la documentation est et restera open-source, je continue toujours d'écrire des articles, je réponds toujours sur le forum, et les vidéos "de base" seront probablement gratuites elles aussi :) Rien ne change de ce côté là, pas de panique!
 
 ## Maker Faire Paris 2017
 
@@ -116,7 +116,7 @@ La Maker Faire, c'est un super événement où plein de Makers se retrouvent pou
 
 J'y étais en 2016, j'y serais en 2017, et c'est le week-end du 9, 10 et 11 Juin à Paris !
 
-N'hésitez pas à venir me voir sur le stand Gladys, j'avais vraiment apprécié l'an dernier rencontrer "en vrai" tout ceux à qui je parle tous les jours sur le forum. Ca fait toujours chaud au coeur de parler avec des utilisateurs de Gladys, et si vous pouviez tous venir ça serait juste génial :)
+N'hésitez pas à venir me voir sur le stand Gladys, j'avais vraiment apprécié l'an dernier de rencontrer "en vrai" tout ceux à qui je parle tous les jours sur le forum. Ca fait toujours chaud au coeur de parler avec des utilisateurs de Gladys, et si vous pouviez tous venir ça serait juste génial :)
 
 Plus de renseignements sur Maker Faire Paris ici => [http://paris.makerfaire.com/](http://paris.makerfaire.com/)
 
