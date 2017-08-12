@@ -17,7 +17,7 @@ Ces fonctions sont regroupés sous la variable `gladys` accessible partout.
 
 Ces fonctions font partie du `core` de Gladys, ce sont des fonctions qui intéragissent avec des concepts clés du système. 
 
-Pour voir toutes les catégories du core, voir [sur le github](https://github.com/GladysProject/Gladys/tree/v3/api/core).
+Pour voir toutes les catégories du core, voir [sur le github](https://github.com/GladysProject/Gladys/tree/master/api/core).
 
 Prenons un exemple, dans le core vous avez un dossier `alarm`, il contient tout le code relatif aux alarmes.
 

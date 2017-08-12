@@ -16,7 +16,7 @@ These function are available in the `gladys` variable, which is available everyw
 
 These functions are part of the `core` of Gladys.
 
-To see all parts of the core, see everything [on GitHub](https://github.com/GladysProject/Gladys/tree/v3/api/core).
+To see all parts of the core, see everything [on GitHub](https://github.com/GladysProject/Gladys/tree/master/api/core).
 
 To take an example, we have the `alarm` folder. It contains all the code related to alarms.
 
