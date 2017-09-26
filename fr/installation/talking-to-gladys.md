@@ -15,7 +15,7 @@ Pour parler à Gladys, deux moyens : Par la voix ou par message. Pour parler à 
 
 Derrière tout ça, Gladys fonctionne grâce au machine learning. Un modèle a été entrainé grâce à une base de donnée de phrases fournie par la communauté, et est capable de classifier les phrases que l'utilisateur soumet à Gladys.
 
-Le fonctionnement est expliqué ici : [Comment Gladys 3.5 répond à vos messages grâce au machine learning](/blog/2017/04/09/gladys-3-5-machine-learning.html)
+Le fonctionnement est expliqué ici : [Comment Gladys 3.5 répond à vos messages grâce au machine learning](/fr/article/gladys-3-5-machine-learning)
 
 La base de donnéee de phrases est sur GitHub : 
 - [Base de donnée Français](https://github.com/GladysProject/gladys-data/blob/master/sentences/v2/fr.json)
