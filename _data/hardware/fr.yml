@@ -29,15 +29,15 @@
   idx: 3
   url: "http://amzn.to/1M82tlv"
 -
-  id: 4
+  id: 5
   language: "fr"
-  name: "Wemo Insight Switch"
-  img: "wemo-insight-switch.jpg"
-  description: "Les prises Wemo sont des prises Wi-Fi avec contrôle de la consommation d'énergie, et retour d'état!"
-  link: "belkin-wemo-insight-switch"
-  tutorial: "http://gladysproject.com/fr/article/controler-prises-wemo-insight-switch"
-  idx: 13
-  url: "http://amzn.to/1CG0WQr"
+  name: "Nut Mini"
+  img: "nut-mini.jpg"
+  description: "Le Nut Mini est un porte clé Bluetooth à 8€ qui permet à Gladys de savoir quand vous rentrez ou quand vous partez de chez vous."
+  link: "nut-mini"
+  tutorial: "http://gladysproject.com/fr/article/detecter-presence-porte-cle-bluetooth"
+  idx: 3
+  url: "https://www.amazon.fr/gp/product/B01AUNMQMG/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=gladproj-21&camp=1642&creative=6746&linkCode=as2&creativeASIN=B01AUNMQMG&linkId=c8c3d0576a70e89bbd67591379eb3dfc"
 -
   id: 5
   language: "fr"
@@ -138,4 +138,14 @@
   tutorial: "https://developer.gladysproject.com/fr/modules/zwave"
   idx: 6
   url: "https://www.amazon.fr/gp/product/B00JHHNUPY/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B00JHHNUPY&linkCode=as2&tag=gladproj-21"
+-
+  id: 4
+  language: "fr"
+  name: "Wemo Insight Switch"
+  img: "wemo-insight-switch.jpg"
+  description: "Les prises Wemo sont des prises Wi-Fi avec contrôle de la consommation d'énergie, et retour d'état!"
+  link: "belkin-wemo-insight-switch"
+  tutorial: "http://gladysproject.com/fr/article/controler-prises-wemo-insight-switch"
+  idx: 13
+  url: "http://amzn.to/1CG0WQr"
 ...
