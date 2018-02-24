@@ -19,6 +19,8 @@
   <!-- Bootstrap Core JavaScript -->
   <script src="/assets/js/bootstrap.min.js"></script>
 
+  <script src="/assets/js/convertkit.js"></script>
+
   {% if page.url == '/fr/' or page.url == '/en/' %}
     <script>
         !function(t){"use strict";t("a.page-scroll").bind("click",function(a){var o=t(this);t("html, body").stop().animate({scrollTop:t(o.attr("href")).offset().top-50},1250,"easeInOutExpo"),a.preventDefault()}),t("body").scrollspy({target:".navbar-fixed-top",offset:100}),t(".navbar-collapse ul li a").click(function(){t(".navbar-toggle:visible").click()}),t("#mainNav").affix({offset:{top:50}})}(jQuery);
@@ -34,7 +36,13 @@
   {% if jekyll.environment == "production" %}
     {% include google-analytics.html %}
     {% include pixel.html %}
-    {% include convertkit.html %}
-  {% endif %}
+    
+    {% if page.lang == 'fr' %}
+      {% include convertkit-slider-fr.html %}
+    {% else %}
+      {% include convertkit-slider-en.html %}
+    {% endif %} 
+  
+   {% endif %}
   
 </html>

@@ -32,8 +32,12 @@ comments: true
                 <div class="well subscribe-right-box">
                   <h4 class="">{{ site.data.i18n[page.lang].article.joinReader.title }}</h4>
                     <p>{{ site.data.i18n[page.lang].article.joinReader.description }}</p>
-                   
-                    {% include converkit-inline-form.html %}
+
+                    {% if page.lang == 'fr' %}
+                      {% include converkit-inline-form-fr.html %}
+                    {% else %}
+                     {% include converkit-inline-form-en.html %}
+                   {% endif %} 
               </div>
 
                 <!-- Blog Categories Well -->
