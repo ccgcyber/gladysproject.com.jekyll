@@ -32,17 +32,8 @@ comments: true
                 <div class="well subscribe-right-box">
                   <h4 class="">{{ site.data.i18n[page.lang].article.joinReader.title }}</h4>
                     <p>{{ site.data.i18n[page.lang].article.joinReader.description }}</p>
-                    <form action="{{site.mailchimp[page.lang].url}}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
-                    <div class="input-group email-input-group">
-                    <input type="email" value="" name="EMAIL" id="followGladysInput-2" class="form-control" placeholder="Email">
-                    <input type="hidden" id="messageSubscribe" value="Merci de vous être inscrit ! Vous allez recevoir un mail de confirmation, vous devez cliquez sur le lien de confirmation pour rejoindre la liste :)">
-                    
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="{{site.mailchimp[page.lang].key}}" tabindex="-1" value=""></div>
-                    <span class="input-group-btn">
-                    <input class="btn btn-success" type="submit" value="S'inscrire">
-                    </span>
-                    </div> 
-                    </form>
+                   
+                    {% include converkit-inline-form.html %}
               </div>
 
                 <!-- Blog Categories Well -->
