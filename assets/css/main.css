@@ -79,7 +79,7 @@
   .ck_form.ck_minimal input[type="text"], .ck_form.ck_minimal input[type="email"] {
     font-size: 18px;
     padding: 10px 8px;
-    width: 68%;
+    width: 100%;
     border: 1px solid #d6d6d6; /* stroke */
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;

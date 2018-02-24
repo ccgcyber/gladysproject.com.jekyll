@@ -36,13 +36,7 @@
   {% if jekyll.environment == "production" %}
     {% include google-analytics.html %}
     {% include pixel.html %}
-    
-    {% if page.lang == 'fr' %}
-      {% include convertkit-slider-fr.html %}
-    {% else %}
-      {% include convertkit-slider-en.html %}
-    {% endif %} 
-  
-   {% endif %}
+    {% include sumo.html %}
+  {% endif %}
   
 </html>
