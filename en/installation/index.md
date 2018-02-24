@@ -22,20 +22,6 @@ The Raspberry Pi is a small computer, which works amazingly for home control, it
 
 If you don't have one, just get started with a [Raspberry Pi starter kit](https://www.amazon.com/gp/product/B01C6Q2GSY/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=gladproj-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B01C6Q2GSY&linkId=8cf1724b55f8212f6525f60ea55975af).
 
-<div class="row">
-
-<div class=" well">
-
-<h4>Join +1 700 readers !</h4>
-
-Don't hesitate to subscribe to Gladys newsletter, no spam, just news written by me :)
-
-<div class="input-group email-input-group col-md-6"><input type="text" id="followGladysInput-2" class="form-control" placeholder="Email"> <input type="hidden" id="messageSubscribe" value="Merci de vous être inscrit ! Vous allez recevoir un mail de confirmation, vous devez cliquez sur le lien de confirmation pour rejoindre la liste :)"> <span class="input-group-btn"><button class="btn btn-success" id="button-subscribe-email-2" type="button">Subscribe</button></span> </div>
-
-</div>
-
-</div>
-
 ## Installing Gladys
 
 To install Gladys on your Raspberry Pi, you just have to use the pre-built Raspbian image.
