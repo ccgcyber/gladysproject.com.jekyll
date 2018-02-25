@@ -97,6 +97,34 @@ homepage:
     music:
       title: Musique
       description: "\"Gladys, mets de la musique dans le salon !\""
+    
+  values:
+    title: Les valeurs du projet
+    opensource:
+      title: Open-Source
+      description: Le code de Gladys et des modules est entièrement disponible en open-source sur GitHub, téléchargeable et modifiable par tous.
+    design:
+      title: Design
+      description: Nous pensons qu'un bon produit passe par un bon design. Chaque décision sur le projet est prise en prenant le design en compte.
+    community:
+      title: Communauté
+      description: Plus qu'un assistant intelligent, Gladys c'est tout une communauté de développeurs qui s'entraident, et améliorent Gladys chaque jour.
+    performance: 
+      title: Performance
+      description: La performance est un aspect important du projet. Gladys est écrite 100% en Node.js, et est vive comme l'éclair.
+    privacy:
+      title: Vie privée
+      description: Avec Gladys, toute vos données restent en local sur votre machine. Rien ne quitte votre installation de Gladys.
+    magic:
+      title: Magique
+      description: Enfin, Gladys c'est avant tout un assistant intelligent qui va rendre votre quotidien magique !
+  
+  community:
+    title: Communauté
+    subtitle: Des événements Gladys
+    firstText: Gladys, c'est aussi une communauté d'utilisateurs, de développeurs, qui se retrouvent pour échanger et parler du futur de la maison connectée.
+    secondText: Envie d'une conférence Gladys dans votre établissement/Fablab/Entreprise ? Merci de me contacter sur le forum de contact du site =>
+    contactMe: Contactez-moi ici
 
   starterKit:
     title: Le pack de démarrage

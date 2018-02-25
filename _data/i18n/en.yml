@@ -95,6 +95,34 @@ homepage:
     music:
       title: Music
       description: "\"Gladys, put some music in the living room!\""
+  
+  values:
+    title: Values
+    opensource:
+      title: Open-Source
+      description: Gladys core and its module are 100% open-source and available on GitHub. Everyone can read, edit and modify the source.
+    design:
+      title: Design
+      description: We think a good product starts by a good design. We always think about design when implemtenting a new feature.
+    community:
+      title: Community
+      description: More than an assistant, Gladys is a whole community of users, developers, that contributes each day to make Gladys better.
+    performance: 
+      title: Performance
+      description: Performance is an important aspect of the project. Gladys is 100% written in Node.js, and is blazzing fast.
+    privacy:
+      title: Privacy
+      description: With Gladys, all your data stays locally on your machine. Nothing leaves your local database, your life stays private.
+    magic:
+      title: Magic
+      description: Finally, Gladys it's a home assistant that'll bring some magic in your life !
+  
+  community:
+    title: Community
+    subtitle: Gladys Events
+    firstText: Gladys, it's a community of users, developers, that often meet to discuss about the future of the connected home.
+    secondText: Want a Gladys conference in your School/Fablab/Company/Event ? Contact me directly on Gladys contact page =>
+    contactMe: Contact me here
 
   installGladys:
     button: Install Gladys

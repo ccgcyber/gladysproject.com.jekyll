@@ -18,6 +18,47 @@
   margin-left: 0; }
 
 
+
+.values .icon{
+  float: left;
+}
+
+.values i {
+    font-size: 36px;
+    line-height: 1;
+}
+
+.values .row {
+  margin-top: 60px;
+}
+
+.values .title {
+  margin-left: 60px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.values .description {
+  font-size: 14px;
+  margin-left: 60px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+.values .box{
+  margin-bottom: 30px;
+}
+
+.images-row {
+  margin-bottom: 30px;
+}
+
+/**
+CONVERKIT
+**/
+
+
   .ck_form.ck_minimal {
     /* divider image */
     font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
