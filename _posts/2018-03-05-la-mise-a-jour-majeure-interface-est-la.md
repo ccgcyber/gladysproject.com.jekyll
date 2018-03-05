@@ -61,7 +61,7 @@ Et il avait raison !
 
 Le problème avec Gladys à l'époque est qu'il n'y avait pas de moyen d'identifier une alarme de type "Réveil" (une alarme destiné à vous réveiller), et une alarme qui servait juste à effectuer une action récurrente, ou à lancer un scénario récurrent.
 
-Gladys 3.8 corrige ce problème, est apporte à la table "Alarm" un attribut "isWakeUp" qui permet de définir si une alarme est un réveil ou pas. La nuance, c'est que Gladys ne déclenchera pas le même event lorsque l'alarme sonnera.
+Gladys 3.8 corrige ce problème, et apporte à la table "Alarm" un attribut "isWakeUp" qui permet de définir si une alarme est un réveil ou pas. La nuance, c'est que Gladys ne déclenchera pas le même event lorsque l'alarme sonnera.
 
 Si l'alarme est un réveil, Gladys déclenchera désormais un event "user-need-to-wake-up", sinon Gladys continuera de déclencher des event de type "alarm". 
 
