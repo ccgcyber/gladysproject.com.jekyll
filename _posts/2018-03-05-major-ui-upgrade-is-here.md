@@ -124,7 +124,7 @@ mysql -uroot -proot -e 'DROP DATABASE gladys;'
 Create a new database:
 
 ```
-mysql -uroot -proot -e 'CREATE DATABASE gladys;'
+mysql -uroot -proot -e 'CREATE DATABASE gladys CHARACTER SET utf8 COLLATE utf8_general_ci;'
 ```
 
 Import the backup file into the database (you need to have the file on your new installation)

@@ -130,7 +130,7 @@ mysql -uroot -proot -e 'DROP DATABASE gladys;'
 Créez à nouveau la base de donnée:
 
 ```
-mysql -uroot -proot -e 'CREATE DATABASE gladys;'
+mysql -uroot -proot -e 'CREATE DATABASE gladys CHARACTER SET utf8 COLLATE utf8_general_ci;'
 ```
 
 Importez votre ancienne base de donnée (Il faut pour cela avoir copié le fichier de backup sur votre Raspberry Pi):
