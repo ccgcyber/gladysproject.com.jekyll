@@ -40,7 +40,7 @@ Pour installer Gladys sur un Raspberry Pi, vous pouvez cloner l'image Raspbian p
 
 La première étape, c'est de télécharger l'image Raspbian.
 
-[<button class="btn btn-success" id="download-raspbian-image">Télécharger Gladys pour Raspberry Pi</button>](https://bit.ly/gladys-raspbian-image-3-8-0)
+[<button class="btn btn-success" id="download-raspbian-image">Télécharger Gladys pour Raspberry Pi</button>](https://bit.ly/gladys-raspbian-image-3-8-0-rev1)
 
 L'image Raspbian est compressée dans un fichier zip, que vous devez dézipper afin d'arriver à un fichier ".img".
 
