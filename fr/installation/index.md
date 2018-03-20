@@ -10,7 +10,7 @@ permalink: /fr/installation/
 
 # Installer Gladys sur un Raspberry Pi
 
-Gladys est un petit serveur écrit en Node.js, ainsi elle est peut tourner aussi bien sur Linux, Mac ou Windows. Néanmoins, afin de pouvoir garder votre Gladys allumée H24 sans consommer, et pour avoir les meilleurs interactions domotiques possible, je vous conseille d'installer Gladys sur un Raspberry Pi.
+Gladys est un petit serveur écrit en Node.js, ainsi elle est peut tourner aussi bien sur Linux, Mac ou Windows. Néanmoins, afin de pouvoir garder votre Gladys allumée H24 sans trop consommer, et pour avoir les meilleurs interactions domotiques possible, je vous conseille d'installer Gladys sur un Raspberry Pi.
 
 ## Le Raspberry Pi
 
