@@ -65,9 +65,9 @@
   img: "tag-nfc.jpg"
   description: "NFC tags allows you to trigger scenario in Gladys when your phone touch them."
   link: "tag-nfc"
-  tutorial: ""
+  tutorial: "https://gladysproject.com/en/article/gladys-and-nfc"
   idx: 7
-  url: "https://www.amazon.com/gp/product/B00PA2JQ4Y/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=gladproj-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00PA2JQ4Y&linkId=df36bfd2f7c0e51bee92c64e5f7b6221"
+  url: "https://www.amazon.com/gp/product/B00KSR0636/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=gladproj-20&creative=9325&linkCode=as2&creativeASIN=B00KSR0636&linkId=9f59aab2ae011b13d9ab33af255c0c86"
 -
   id: 27
   language: "en"
