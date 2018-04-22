@@ -9,4 +9,4 @@ permalink: /fr/installation/rest-api/
 
 # L'API REST Gladys 
 
-L'API REST est documentée ici : [https://documentation.gladysproject.com](https://documentation.gladysproject.com).    
+L'API REST est documentée ici : [https://documentation.gladysproject.com/apidoc/](https://documentation.gladysproject.com/apidoc/).

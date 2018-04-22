@@ -12,6 +12,8 @@ If you are in a script, or in a module, you probably wants to use Gladys functio
 
 These function are available in the `gladys` variable, which is available everywhere in the code.
 
+Gladys Node.js API documentation is available here => [https://documentation.gladysproject.com/jsdoc/](https://documentation.gladysproject.com/jsdoc/)
+
 ### Core
 
 These functions are part of the `core` of Gladys.

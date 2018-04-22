@@ -13,6 +13,8 @@ Que vous soyez dans des scripts, ou dans un module Gladys, vous pouvez accéder 
 
 Ces fonctions sont regroupés sous la variable `gladys` accessible partout.
 
+La documentation de l'API Node.js Gladys est disponible ici => [https://documentation.gladysproject.com/jsdoc/](https://documentation.gladysproject.com/jsdoc/)
+
 ### Core
 
 Ces fonctions font partie du `core` de Gladys, ce sont des fonctions qui intéragissent avec des concepts clés du système. 
