@@ -30,7 +30,7 @@ The first step is to download Gladys Raspbian image :
 
 [Download Gladys Raspbian Image for Raspberry Pi on GitHub](https://bit.ly/gladys-3-8-0-rev2)
 
-If the download is slow or not working, you can use our official mirror => [Download Gladys Raspbian Image on Official mirror](http://bit.ly/gladys-3-8-0-rev2-mirror-fr1)
+If the download is slow or not working, you can use our official mirror => [Download Gladys Raspbian Image on Official mirror](https://bit.ly/gladys-3-8-0-rev2-mirror-fr2)
 
 And unzip the downloaded zip file to get a ".img" file.
 
