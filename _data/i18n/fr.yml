@@ -40,7 +40,7 @@ homepage:
   bigTitle: Gladys, votre assistant intelligent
   smallSentence: Gladys est un programme de domotique open-source qui tourne sur Raspberry Pi.
   smallSentenceLine: Gladys se connecte à vos périphériques et à votre agenda pour mieux vous aider au quotidien.
-  installButton: Installer Gladys gratuitement !
+  installButton: Installer
   sentenceEmail: Rejoignez la communauté, et recevez les news du projet !
   sentenceEmailLine1: Vous êtes plus de 35 000 à avoir téléchargé Gladys.
   sentenceEmailLine2: Les mails sont envoyés par Pierre-Gilles Leymarie, le fondateur du projet, et vous pouvez toujours vous désinscrire à tout moment
