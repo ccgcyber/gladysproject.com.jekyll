@@ -66,7 +66,7 @@ HEADER WITH PICTURE
 
 
 .navbar-brand {
-  padding-top: 10px;
+  padding-top: 9px;
 }
 
 .drawing {
@@ -86,34 +86,12 @@ HEADER WITH PICTURE
 
 .btn-install:hover {
   color: white;
-  background-color: #16193b;
+  background-color: #064ab4;
   cursor: pointer;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-}
-
-.logo h1 {
-  margin: 0;
 }
 
 .nav-link {
   color: black !important;
-  font-size: 1rem;
-}
-
-.nav-link.active{
-  width: 50%;
-  background-color: #9CECFB;
-  color: #0052D4 !important;
-  border-radius: 25px;
-}
-
-.nav-item .nav-link.active{
-  position: relative;
-  left: 25%;
 }
 
 @media (min-width: 1600px) and (max-width: 2000px) {
