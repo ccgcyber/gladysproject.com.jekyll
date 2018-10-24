@@ -128,7 +128,12 @@ HEADER WITH PICTURE
   }
 }
 
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
+  
+  .section-header-drawing {
+    min-height: 690px;
+  }
+
   .drawing {
       width: 60%;
       /*min-height: 100%; */
