@@ -41,7 +41,7 @@ sumo-site-id: d1640d1e25d422b2dececeb749db8ca19998f2a44e94b8b2bceaa9e216c26dad
 #SEO plugins infos
 twitter:
   username: gladysproject
-logo: /assets/images/presentation/facebook_share_gladys.png
+logo: /assets/images/presentation/gladys-og-image.png
 social:
   name: Gladys Project
   links:

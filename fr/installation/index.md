@@ -4,7 +4,7 @@ description: Découvrez comment installer Gladys sur votre Raspberry Pi !
 layout: documentation
 lang: fr
 identifier: /fr/installation
-image: /assets/images/presentation/facebook_share_gladys.png
+image: /assets/images/presentation/gladys-og-image.png
 permalink: /fr/installation/
 ---
 

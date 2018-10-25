@@ -3,7 +3,7 @@ title: Merci !
 description: Merci de soutenir le projet Gladys !
 layout: container-margin
 lang: fr
-image: /assets/images/presentation/facebook_share_gladys.png
+image: /assets/images/presentation/gladys-og-image.png
 permalink: /fr/thank-you/
 ---
 

@@ -3,7 +3,7 @@ title: L'API Node.js Gladys
 description: La documentation de l'API Node.js de Gladys 
 layout: documentation
 lang: fr
-image: /assets/images/presentation/facebook_share_gladys.png
+image: /assets/images/presentation/gladys-og-image.png
 permalink: /fr/installation/nodejs-api/
 ---
 
