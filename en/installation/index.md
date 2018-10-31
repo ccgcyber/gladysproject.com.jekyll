@@ -22,27 +22,15 @@ The Raspberry Pi is a small computer, which works amazingly for home control, it
 
 If you don't have one, just get started with a [Raspberry Pi starter kit](https://www.amazon.com/gp/product/B01C6Q2GSY/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=gladproj-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B01C6Q2GSY&linkId=8cf1724b55f8212f6525f60ea55975af).
 
-<div class="row">
-
-<div class=" well">
-
-<h4>Join +1 700 readers !</h4>
-
-Don't hesitate to subscribe to Gladys newsletter, no spam, just news written by me :)
-
-<div class="input-group email-input-group col-md-6"><input type="text" id="followGladysInput-2" class="form-control" placeholder="Email"> <input type="hidden" id="messageSubscribe" value="Merci de vous être inscrit ! Vous allez recevoir un mail de confirmation, vous devez cliquez sur le lien de confirmation pour rejoindre la liste :)"> <span class="input-group-btn"><button class="btn btn-success" id="button-subscribe-email-2" type="button">Subscribe</button></span> </div>
-
-</div>
-
-</div>
-
 ## Installing Gladys
 
 To install Gladys on your Raspberry Pi, you just have to use the pre-built Raspbian image.
 
 The first step is to download Gladys Raspbian image :
 
-[<button class="btn btn-success" id="download-raspbian-image">Download Gladys Raspbian Image for Raspberry Pi</button>](https://sourceforge.net/projects/gladys/files/latest/download)
+[Download Gladys Raspbian Image for Raspberry Pi on GitHub](https://bit.ly/gladys-3-8-0-rev2)
+
+If the download is slow or not working, you can use our official mirror => [Download Gladys Raspbian Image on Official mirror](https://bit.ly/gladys-3-8-0-rev2-mirror-fr2)
 
 And unzip the downloaded zip file to get a ".img" file.
 
@@ -58,7 +46,7 @@ Finally, all you have to do is to connect your Raspberry Pi to your local networ
 
 Last step is to expand the partition on the SD card. If you don't do it, the system won't have access to the full size of your SD card, and you will run out of disk space.
 
-Expanding the SD card is really easy. You have to connect to your Raspberry Pi (directly or threw SSH). If you don't know how SSH works, there are some great tutorial for [Windows](https://www.raspberrypi.org/documentation/remote-access/ssh/windows.md) and [Mac/Linux](https://www.raspberrypi.org/documentation/remote-access/ssh/unix.md).
+Expanding the SD card is really easy. You have to connect to your Raspberry Pi (directly or through SSH). If you don't know how SSH works, there are some great tutorials for [Windows](https://www.raspberrypi.org/documentation/remote-access/ssh/windows.md) and [Mac/Linux](https://www.raspberrypi.org/documentation/remote-access/ssh/unix.md).
 
 Credentials are the same that the default Raspbian image (user : pi, password : raspberry).
 
@@ -78,7 +66,7 @@ To access Gladys, open your favorite browser, on any computer on the local netwo
 
 You should arrive on Gladys web interface where you can configure your account !
 
-**Note :** If it don't work, you can access Gladys directly by typing the IP of your Raspberry Pi in your browser. To find the IP, just type `ifconfig` on the Raspberry Pi shell, or you can use a network scanner app to find his IP ([Network Scanner](https://play.google.com/store/apps/details?id=com.easymobile.lan.scanner&hl=fr) on Android or [iNet](https://itunes.apple.com/fr/app/inet-network-scanner/id340793353?mt=8) on iOS)
+**Note :** If it doesn't work, you can access Gladys directly by typing the IP of your Raspberry Pi in your browser. To find the IP, just type `ifconfig` on the Raspberry Pi shell, or you can use a network scanner app to find the IP ([Network Scanner](https://play.google.com/store/apps/details?id=com.easymobile.lan.scanner&hl=fr) on Android or [iNet](https://itunes.apple.com/fr/app/inet-network-scanner/id340793353?mt=8) on iOS)
 
 #### Manual installation
 

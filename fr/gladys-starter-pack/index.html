@@ -226,14 +226,14 @@ permalink: /fr/gladys-starter-pack/
 					<div class="row v-align-children">
 						<div class="col-md-4 text-center">
 							<div class="pricing-option">
-								<h6>Promotion</h6>
-								<div class="price-container" style="text-decoration: line-through;  text-decoration-color: #0785f2">
+								<h6>Prix</h6>
+								<div class="price-container">
 									<span class="dollar">€</span>
 									<span class="price">49</span>
 									<span class="terms"></span>
 								</div>
-								<h5>Offre de Noël limitée !</h5>
-								<small>( 49€ normalement )</small> <br />
+								<!--<h5>Offre très limitée!</h5>
+								<small>( 49€ normalement )</small> <br />-->
 								
 								<!--<a href="#" class="btn btn-filled">Précommander !</a>-->
 								<script data-selz-t="_selz-btn-default" data-selz-b="http://selz.co/EJYsYcarQ" data-text="Acheter" data-selz-a="modal" data-selz-checkout="true" data-selz-cb="0785f2" data-selz-ct="ffffff" data-selz-chbg="0785f2" data-selz-chtx="ffffff">if (typeof _$elz === "undefined") { var _$elz = {}; } if (typeof _$elz.b === "undefined") { _$elz.b = { e: document.createElement("script") }; _$elz.b.e.src = "https://selz.com/embed/button"; document.body.appendChild(_$elz.b.e); }</script>
@@ -353,7 +353,7 @@ permalink: /fr/gladys-starter-pack/
 					
 						<div class="col-sm-4 text-center">
 							<p class="sub">
-								© Copyright 2017 Gladys Project - All Rights Reserved
+								© Copyright {{ 'now' | date: "%Y" }} Gladys Project - All Rights Reserved
 							</p>
 						</div>
 					
@@ -371,9 +371,7 @@ permalink: /fr/gladys-starter-pack/
 	
 	{% if jekyll.environment == "production" %}
 		{% include google-analytics.html %}
-		{% include hotjar.html %}
 		{% include pixel.html %}
-		{% include mailchimp.html %}
 	{% endif %}
 	
 	<script>

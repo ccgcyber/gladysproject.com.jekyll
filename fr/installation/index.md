@@ -4,13 +4,13 @@ description: Découvrez comment installer Gladys sur votre Raspberry Pi !
 layout: documentation
 lang: fr
 identifier: /fr/installation
-image: /assets/images/presentation/facebook_share_gladys.png
+image: /assets/images/presentation/gladys-og-image.png
 permalink: /fr/installation/
 ---
 
 # Installer Gladys sur un Raspberry Pi
 
-Gladys est un petit serveur écrit en Node.js, ainsi elle est peut tourner aussi bien sur Linux, Mac ou Windows. Néanmoins, afin de pouvoir garder votre Gladys allumée H24 sans consommer, et pour avoir les meilleurs interactions domotiques possible, je vous conseille d'installer Gladys sur un Raspberry Pi.
+Gladys est un petit serveur écrit en Node.js, ainsi elle est peut tourner aussi bien sur Linux, Mac ou Windows. Néanmoins, afin de pouvoir garder votre Gladys allumée H24 sans trop consommer, et pour avoir les meilleurs interactions domotiques possible, je vous conseille d'installer Gladys sur un Raspberry Pi.
 
 ## Le Raspberry Pi
 
@@ -23,24 +23,6 @@ Le Raspberry Pi est un micro-ordinateur qui a de nombreux avantages :
 *   Tout équipé niveau connectivités (Wi-Fi, Bluetooth 4.1 LE, Ethernet, 40 GPIO pins, 4 ports USB, Full HDMI port)
 
 Si vous n'avez pas de Raspberry Pi, le mieux est de commencer avec un [kit de démarrage contenant tout le matériel](http://www.amazon.fr/gp/product/B01CI5876S/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B01CI5876S&linkCode=as2&tag=gladproj-21).
-
-<div class="row">
-
-<div class=" well">
-
-<h4>Rejoignez +1500 lecteurs !</h4>
-
-N'hésitez pas à vous inscrire à la newsletter Gladys ! Pas de spam, juste des news que j'envoie personnellement à propos du projet :)
-
-<form action="//gladysproject.us10.list-manage.com/subscribe/post?u=2987d27cbb489c6da217450c2&amp;id=e20efa438f" method="post">
-
-<div class="input-group email-input-group col-md-6"><input type="text" id="followGladysInput-2" class="form-control" placeholder="Email"> <input type="hidden" id="messageSubscribe" value="Merci de vous être inscrit ! Vous allez recevoir un mail de confirmation, vous devez cliquez sur le lien de confirmation pour rejoindre la liste :)"> <span class="input-group-btn"><input class="btn btn-success" type="submit" value="S'inscrire"></span> </div>
-
-</form>
-
-</div>
-
-</div>
 
 ## Installation de Gladys
 
@@ -58,7 +40,11 @@ Pour installer Gladys sur un Raspberry Pi, vous pouvez cloner l'image Raspbian p
 
 La première étape, c'est de télécharger l'image Raspbian.
 
-[<button class="btn btn-success" id="download-raspbian-image">Télécharger Gladys pour Raspberry Pi</button>](https://sourceforge.net/projects/gladys/files/latest/download)
+Vous pouvez télécharger l'image Raspbian sur notre GitHub =>
+
+[Télécharger l'image Raspbian Gladys sur GitHub](https://bit.ly/gladys-3-8-0-rev2)
+
+Si le téléchargement est lent sur GitHub ou ne fonctionne pas, vous pouvez télécharger l'image sur le miroir officiel Gladys => [Télécharger l'image Raspbian Gladys sur le miroir officiel](https://bit.ly/gladys-3-8-0-rev2-mirror-fr2)
 
 L'image Raspbian est compressée dans un fichier zip, que vous devez dézipper afin d'arriver à un fichier ".img".
 

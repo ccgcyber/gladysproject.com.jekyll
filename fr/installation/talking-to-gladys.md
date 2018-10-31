@@ -3,7 +3,7 @@ title: Parler à Gladys
 description: Découvrez comment discuter avec Gladys, que ce soit par message ou vocalement !
 layout: documentation
 lang: fr
-image: /assets/images/presentation/facebook_share_gladys.png
+image: /assets/images/presentation/gladys-og-image.png
 permalink: /fr/installation/talking-to-gladys/
 ---
 

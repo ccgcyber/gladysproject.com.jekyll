@@ -16,7 +16,7 @@ gulp.task('concat-scripts', function() {
 });
 
 gulp.task('concat-css', function() {
-    return gulp.src(['./assets/css/main.css', './assets/css/bootstrap.min.css', './assets/css/font-awesome.min.css' , './assets/css/timeline.css','./assets/css/rrssb.css', './assets/css/new-age.css'])
+    return gulp.src(['./assets/css/fontawesome-all.min.css', './assets/css/bootstrap.min.css', './assets/css/font-awesome.min.css' , './assets/css/timeline.css','./assets/css/rrssb.css', './assets/css/new-age.css', './assets/css/main.css' ])
         .pipe(concat('production.css'))
         .pipe(gulp.dest('./assets/css/'));
 });

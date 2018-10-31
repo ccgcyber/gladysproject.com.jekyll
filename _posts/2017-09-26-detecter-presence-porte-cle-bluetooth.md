@@ -105,11 +105,23 @@ Ensuite, il faut autoriser Node.js à accéder au Bluetooth sans être root en e
 sudo setcap cap_net_raw+eip $(eval readlink -f `which node`)
 ```
 
+Ensuite, il faut lancer la phase "dévouverte" du module afin que vous puissiez inclure votre objet Bluetooth dans Gladys. La phase découverte n'est pas active tout le temps, cela évite que des périphériques inconnus apparaissent dans votre Gladys :)
+
+Pour lancer la phase découverte, lancez la commande sur le Raspberry Pi : 
+
+```
+node /home/pi/gladys-bluetooth/setup.js
+```
+
+Placez vos objets Bluetooth a proximité. Ils devraient être ajouté dans Gladys. Une fois que tous les objets sont dans Gladys, vous pouvez stopper cette commande en faisant "Ctrl + C".
+
 Enfin, je vous propose de lancer Gladys Bluetooth avec pm2 : 
 
 ```
 pm2 start /home/pi/gladys-bluetooth/app.js --name gladys-bluetooth
 ```
+
+Si jamais à l'avenir vous avez besoin d'ajouter de nouveaux périphériques, vous pouvez bien entendu relancer la découverte :)
 
 **Remarque 1** : Si vous avez cloné le repository autre part que dans `/home/pi/gladys-bluetooth`, remplacez le chemin dans la commande ci-dessus.
 

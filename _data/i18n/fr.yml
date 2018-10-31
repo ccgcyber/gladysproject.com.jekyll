@@ -38,10 +38,12 @@ products:
 # The HomePage
 homepage:
   bigTitle: Gladys, votre assistant intelligent
-  smallSentence: Gladys est un programme open-source pour Raspberry Pi.
+  smallSentence: Gladys est un programme de domotique open-source qui tourne sur Raspberry Pi.
   smallSentenceLine: Gladys se connecte à vos périphériques et à votre agenda pour mieux vous aider au quotidien.
-  installButton: Installer Gladys gratuitement !
+  installButton: Installer
   sentenceEmail: Rejoignez la communauté, et recevez les news du projet !
+  sentenceEmailLine1: Vous êtes plus de 35 000 à avoir téléchargé Gladys.
+  sentenceEmailLine2: Les mails sont envoyés par Pierre-Gilles Leymarie, le fondateur du projet, et vous pouvez toujours vous désinscrire à tout moment
   buttonEmail: S'inscrire
   messageSubscribe: Merci de vous être inscrit ! Vous allez recevoir un mail de confirmation, vous devez cliquez sur le lien de confirmation pour rejoindre la liste :)
   leftArrow:
@@ -95,6 +97,35 @@ homepage:
     music:
       title: Musique
       description: "\"Gladys, mets de la musique dans le salon !\""
+    
+  values:
+    title: Les valeurs du projet
+    opensource:
+      title: Open-Source
+      description: Le code de Gladys et des modules est entièrement disponible en open-source sur GitHub, téléchargeable et modifiable par tous.
+    design:
+      title: Design
+      description: Nous pensons qu'un bon produit passe par un bon design. Chaque décision sur le projet est prise en prenant le design en compte.
+    community:
+      title: Communauté
+      description: Plus qu'un assistant intelligent, Gladys c'est tout une communauté de développeurs qui s'entraident, et améliorent Gladys chaque jour.
+    performance: 
+      title: Performance
+      description: La performance est un aspect important du projet. Gladys est écrite 100% en Node.js, et est vive comme l'éclair.
+    privacy:
+      title: Vie privée
+      description: Avec Gladys, toute vos données restent en local sur votre machine. Rien ne quitte votre installation de Gladys.
+    magic:
+      title: Magique
+      description: Enfin, Gladys c'est avant tout un assistant intelligent qui va rendre votre quotidien magique !
+  
+  community:
+    title: Communauté
+    subtitle: Des événements Gladys
+    firstText: Gladys, c'est aussi une communauté d'utilisateurs, de développeurs, qui se retrouvent pour échanger et parler du futur de la maison connectée.
+    secondText: Envie d'une conférence Gladys dans votre établissement/Fablab/Entreprise ? Merci de me contacter sur le forum de contact du site =>
+    contactMe: Contactez-moi ici
+    patreonMessage: Envie de soutenir le projet ? Gladys est sur 
 
   starterKit:
     title: Le pack de démarrage
@@ -134,7 +165,7 @@ rss:
 #Article Page
 article:
   joinReader:
-    title: Rejoignez +2 000 lecteurs ️️!
+    title: Rejoignez +3 000 lecteurs ️️!
     description: N'hésitez pas à vous inscrire à la newsletter Gladys ! Pas de spam, juste des news que j'envoie personnellement 🙂
 
 
@@ -167,7 +198,7 @@ contact:
   legalMention:
     title: Mentions légales
     whoAmI: Qui suis-je ?
-    sentence: Je m'appelle Pierre-Gilles Leymarie et je suis ingénieur back-end dans la startup BulldozAIR ! N'hésitez pas à me contacter si vous voulez plus d'informations sur le projet :)
+    sentence: Je m'appelle Pierre-Gilles Leymarie et j'ai fondé le projet Gladys en 2013. Récemment, j'ai décidé de faire de Gladys mon activité principale. Pour en savoir plus sur l'histoire du projet, j'ai écris un article sur le blog => 
     helpTheProject: Aidez le projet !
     hebergement: Ce site est hébergé chez
 
